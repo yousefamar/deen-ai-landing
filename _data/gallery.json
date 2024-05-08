@@ -1,0 +1,104 @@
+[{
+  "title": "Tarteel AI",
+  "description": "Get live feedback on your Quran recitation using AI",
+  "img": "https://play-lh.googleusercontent.com/5IkLUploK0rfcLSmh3h9xyz-BQnTTQ9aA9NY-6OUc9HWyJVL82XSNJ2hgj_Lgvioe6P3=w2560-h1440-rw",
+  "url": "https://www.tarteel.ai/",
+  "tags": [
+    "Product"
+  ]
+}, {
+  "title": "IslamChat",
+  "description": "RAG over a database of more than 140,000 Islamic rulings (fatawa) to answer users' questions",
+  "img": "/islamchat-preview.jpg",
+  "url": "https://islamchat.deen.ai/",
+  "tags": [
+    "Product",
+    "Dataset",
+    "Code"
+  ]
+}, {
+  "title": "Mufti.ai",
+  "description": "RAG over transcripts of 3,689 Mufti Menk videos to answer users' questions",
+  "img": "https://mufti.ai/meta-preview.png",
+  "url": "https://mufti.ai/",
+  "tags": [
+    "Product",
+    "Dataset"
+  ]
+}, {
+  "title": "Hadith GPT",
+  "description": "RAG over the repositories of Hadith to find related information",
+  "img": "https://www.hadithgpt.com/hadith-og.png",
+  "url": "https://www.hadithgpt.com/",
+  "tags": [
+    "Product",
+    "Dataset"
+  ]
+}, {
+  "title": "Ansari",
+  "description": "Islamic digital assistant that uses multiple tools to answer people's questions or to generate text",
+  "img": "https://ansari.chat/static/media/compositeLogo.316705e3d9f51e155685d95c54b5978c.svg",
+  "url": "https://ansari.chat/",
+  "tags": [
+    "Product",
+    "Dataset",
+    "Code"
+  ]
+}, {
+  "title": "Hadith.is",
+  "description": "RAG over 33,850 hadiths using GPT-3. Answers backed by actual hadiths referenced.",
+  "img": "https://hadith.is/meta-preview.png",
+  "url": "https://hadith.is/",
+  "tags": [
+    "Product",
+    "Dataset"
+  ]
+}, {
+  "title": "AraNizer",
+  "description": "Tokenizer for Arabic that is much more efficient (on average, large providers like OpenAI encode 1 Arabic word with 8 tokens vs 1.3 tokens for English",
+  "img": "https://opengraph.githubassets.com/8656fc542dc5f891e21353cf2c767c5d0b10894a07a870e51d334bdfc7012f12/riotu-lab/aranizer",
+  "url": "https://github.com/riotu-lab/aranizer",
+  "tags": [
+    "Code"
+  ]
+}, {
+  "title": "ArabianGPT",
+  "description": "Native Arabic GPT-based Large Language Model",
+  "img": "arabiangpt-preview.png",
+  "url": "https://arxiv.org/abs/2402.15313",
+  "tags": [
+    "Model"
+  ]
+}, {
+  "title": "OpenITI",
+  "description": "Open Islamicate Texts initiative",
+  "img": "https://openiti.org/assets/images/main-images/OpenITI_Logo_Project-01-01.png",
+  "url": "https://openiti.org/",
+  "tags": [
+    "Dataset"
+  ]
+}, {
+  "title": "KITAB",
+  "description": "Islamic literature repository",
+  "img": "https://kitab-project.org/images/covers/banner_home.jpg",
+  "url": "https://kitab-project.org/",
+  "tags": [
+    "Dataset"
+  ]
+}, {
+  "title": "LK Hadith Corpus",
+  "description": "Cleaned up corpus of hadith",
+  "img": "https://opengraph.githubassets.com/d70ea0cbea6665e7091ceacb42ce34d3775bd8e12e9d5c3443966c48b757b234/ShathaTm/LK-Hadith-Corpus",
+  "url": "https://github.com/ShathaTm/LK-Hadith-Corpus",
+  "tags": [
+    "Dataset"
+  ]
+}, {
+  "title": "BATIK",
+  "description": "Broad Automated Test of Islamic Knowledge - 100 multiple choice questions designed to ensure that a chatbot gets the basics of Islam right",
+  "img": "batik-preview.png",
+  "url": "https://beta.ansari.chat/docs/validation/#questions",
+  "tags": [
+    "Evaluation"
+  ]
+}]
