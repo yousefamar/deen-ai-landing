@@ -7,6 +7,14 @@
     "Product"
   ]
 }, {
+  "title": "Niyyah",
+  "description": "Understand and apply the Quran with quizzes personalised using AI",
+  "img": "https://niyyah.app/wp-content/uploads/2024/02/OPENGRAPH-Niyyah.png",
+  "url": "https://niyyah.app/",
+  "tags": [
+    "Product"
+  ]
+}, {
   "title": "IslamChat",
   "description": "RAG over a database of more than 140,000 Islamic rulings (fatawa) to answer users' questions",
   "img": "/islamchat-preview.jpg",
