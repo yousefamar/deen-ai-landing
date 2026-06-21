@@ -9,7 +9,7 @@
 }, {
   "title": "Niyyah",
   "description": "Understand and apply the Quran with quizzes personalised using AI",
-  "img": "https://niyyah.app/wp-content/uploads/2024/02/OPENGRAPH-Niyyah.png",
+  "img": "https://niyyah.app/niyyah-icon.png",
   "url": "https://niyyah.app/",
   "tags": [
     "Product"
@@ -45,7 +45,7 @@
 }, {
   "title": "Ansari",
   "description": "Islamic digital assistant that uses multiple tools to answer people's questions or to generate text",
-  "img": "https://ansari.chat/static/media/compositeLogo.316705e3d9f51e155685d95c54b5978c.svg",
+  "img": "https://ansari.chat/logo-512_x_512.png",
   "url": "https://ansari.chat/",
   "tags": [
     "Product",
@@ -53,10 +53,10 @@
     "Code"
   ]
 }, {
-  "title": "Hadith.is",
-  "description": "RAG over 33,850 hadiths using GPT-3. Answers backed by actual hadiths referenced.",
-  "img": "https://hadith.is/meta-preview.png",
-  "url": "https://hadith.is/",
+  "title": "Islam & AI",
+  "description": "AI chat and related tools and datasets for empowering Islamic education",
+  "img": "https://islamandai.com/android-chrome-512x512.png",
+  "url": "https://islamandai.com/",
   "tags": [
     "Product",
     "Dataset"
