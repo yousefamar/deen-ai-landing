@@ -23,7 +23,8 @@
     "Product",
     "Dataset",
     "Code"
-  ]
+  ],
+  "hidden": true
 }, {
   "title": "Mufti.ai",
   "description": "RAG over transcripts of 3,689 Mufti Menk videos to answer users' questions",
