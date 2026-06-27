@@ -1,0 +1,17 @@
+{
+  "name": "deen-ai-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "deen.ai landing page — Eleventy + precompiled Tailwind, deployed to GitHub Pages",
+  "scripts": {
+    "html": "printf 'index.html\\nnode_modules\\nprivacy\\nog\\nCLAUDE.md\\n' > .eleventyignore && eleventy --input=. --output=. && rm -f .eleventyignore",
+    "css": "tailwindcss -c tailwind.config.js -i ./src/tw.css -o ./tailwind.css --minify",
+    "build": "npm run html && npm run css"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.13",
+    "tailwindcss": "^3.4.4"
+  }
+}

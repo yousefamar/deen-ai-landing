@@ -7,28 +7,44 @@ repo's title "deen.ai - AI + Islam" and the Gallery section). Yousef's job for C
 ## What this is
 Static [Eleventy](https://www.11ty.dev/) site, deployed to **GitHub Pages**.
 
-- `index.njk` — the source template (Nunjucks). Tailwind + FontAwesome both via CDN `<script>`
-  (no local build of CSS). Hero (logo + "AI + Islam" + WhatsApp community button) and a Gallery.
+- `index.njk` — the source template (Nunjucks). Tailwind is **precompiled** to `tailwind.css`
+  (no more CDN runtime); FontAwesome is gone, the 2 icons (WhatsApp, chevron) are **inline SVG**.
+  Full SEO head (title, meta description, canonical, Open Graph + Twitter Card, favicons/manifest,
+  `theme-color`) and 3 JSON-LD blocks (Organization, WebSite, and a CollectionPage/ItemList
+  auto-generated from `gallery.json`). Hero (logo + "AI + Islam" + WhatsApp button) and a Gallery.
 - `_data/gallery.json` — the data that drives the Gallery grid. Each entry:
-  `{ title, description, img, url, tags[] }`. Tag values that render a coloured pill:
+  `{ title, description, img, url, tags[], hidden? }`. `hidden: true` omits the entry from both the
+  grid and the JSON-LD. Tag values that render a coloured pill:
   `Product` (green), `Dataset` (blue), `Model` (yellow), `Code` (purple), `Evaluation` (pink).
   Any other tag value renders nothing.
-- `index.html` — the **rendered output of `index.njk`, committed into the repo.**
+- `index.html` + `tailwind.css` — the **committed build outputs** (`index.html` is rendered from
+  `index.njk`; `tailwind.css` is the minified, tree-shaken stylesheet). Both must be committed.
+- SEO assets: `og-image.png` (1200×630 social card; **source** is `og/card.html`, render it with
+  the headless-Chrome command below), `robots.txt`, `sitemap.xml`, `site.webmanifest`.
 - `.github/workflows/static.yml` — on push to `main`, uploads the whole repo (`path: '.'`) and
-  deploys to Pages. **It does NOT run Eleventy.**
+  deploys to Pages. **It does NOT build anything** (no Eleventy, no Tailwind).
 
 ## ⚠️ The one gotcha that bites every time
-CI serves `index.html` **as-is** — there is no build step in the Action. So editing `index.njk`
-or `_data/gallery.json` does **nothing** in production until you **regenerate and commit
-`index.html`**. Always rebuild after touching the template or the data.
+CI builds **nothing** — it serves committed files as-is. So editing `index.njk`, `_data/gallery.json`,
+or any Tailwind class does **nothing** in production until you **regenerate and commit both
+`index.html` AND `tailwind.css`**. Always rebuild after touching a template, the data, or styling.
 
-### Rebuild `index.html`
+### Rebuild (regenerates `index.html` + `tailwind.css`)
 ```bash
-# from repo root. Ignore the stale index.html during the build so it isn't read as a
-# template (its permalink would collide with index.njk's).
-printf 'index.html\nnode_modules\n' > .eleventyignore
-npx -y @11ty/eleventy@2 --input=. --output=.
-rm -f .eleventyignore
+# from repo root. First run only: `npm install` (pulls eleventy + tailwind devDeps; node_modules is gitignored).
+npm run build      # = eleventy render (html) + tailwindcss --minify (css). Commit both outputs.
+```
+`npm run html` and `npm run css` run the two halves separately if needed. The `html` script writes a
+temporary `.eleventyignore` (so `index.html`/`privacy`/`og`/`CLAUDE.md` aren't read as templates) and
+cleans it up afterwards.
+
+### Regenerate the social card (`og-image.png`)
+Source is `og/card.html` (real `deen.png` logo + the mosque silhouette in `og/mosque.svg`, recoloured).
+Tune it, then render at exactly 1200×630 while the local server (below) is running:
+```bash
+google-chrome --headless=new --hide-scrollbars --force-device-scale-factor=1 \
+  --window-size=1200,630 --virtual-time-budget=3500 --user-data-dir="$(mktemp -d)" \
+  --screenshot="$PWD/og-image.png" "http://127.0.0.1:8099/og/card.html?v=a"
 ```
 
 ### Preview locally (matches production: root is served directly)
