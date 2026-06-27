@@ -68,7 +68,11 @@ SPA rebuilds change hashed asset filenames (`logo.<hash>.png`), domains die, etc
    not ideal; a wide og-card preview looks better when one exists.
 5. Rebuild `index.html` and visually verify (every `img` should have `naturalWidth > 0`).
 
-## Sibling repo `../deen-ai` — DEPRECATED
-The old single-file chatbot app. **No longer on `deen.ai`** — it now lives at `old.deen.ai`.
-Don't confuse it with this repo. Active product chat surfaces (e.g. IslamChat) are on their own
-subdomains (`islamchat.deen.ai`).
+## This repo's place in the family
+This repo now lives at `~/proj/code/deen-ai/landing` (sibling repos under `~/proj/code/deen-ai/`:
+`bot`, `api`, `skills`, `old`, `legacy-bot`). Shared context: `../CLAUDE.md`.
+
+## Sibling repo `../old` (DEPRECATED)
+The old single-file chatbot app (GH `deen-ai`). **No longer on `deen.ai`**, it now lives at
+`old.deen.ai`. Don't confuse it with this repo. Active product chat surfaces (e.g. IslamChat) are on
+their own subdomains (`islamchat.deen.ai`, repo `~/proj/code/chat`).
