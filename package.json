@@ -4,7 +4,7 @@
   "private": true,
   "description": "deen.ai landing page — Eleventy + precompiled Tailwind, deployed to GitHub Pages",
   "scripts": {
-    "html": "printf 'index.html\\nnode_modules\\nprivacy\\nog\\nCLAUDE.md\\n' > .eleventyignore && eleventy --input=. --output=. && rm -f .eleventyignore",
+    "html": "printf 'index.html\\nnode_modules\\nprivacy\\nog\\nCLAUDE.md\\nar\\nur\\nid\\n' > .eleventyignore && eleventy --input=. --output=. && rm -f .eleventyignore",
     "css": "tailwindcss -c tailwind.config.js -i ./src/tw.css -o ./tailwind.css --minify",
     "build": "npm run html && npm run css"
   },
