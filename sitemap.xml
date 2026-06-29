@@ -4,31 +4,531 @@
   <url>
     <loc>https://deen.ai/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://deen.ai/ar/</loc>
+    <loc>https://deen.ai/am/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://deen.ai/ur/</loc>
+    <loc>https://deen.ai/ar/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/az/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/bn/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/bs/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/ckb/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/fa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/ha/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/hi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -37,9 +537,859 @@
   <url>
     <loc>https://deen.ai/id/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/kk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/ky/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/ms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/nl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/ps/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/sd/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/so/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/sq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/sw/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/ta/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/tg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/tr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/tt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/ug/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/ur/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/uz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deen.ai/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deen.ai/"/>
+    <xhtml:link rel="alternate" hreflang="am" href="https://deen.ai/am/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deen.ai/ar/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://deen.ai/az/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://deen.ai/bn/"/>
+    <xhtml:link rel="alternate" hreflang="bs" href="https://deen.ai/bs/"/>
+    <xhtml:link rel="alternate" hreflang="ckb" href="https://deen.ai/ckb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://deen.ai/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deen.ai/es/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://deen.ai/fa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deen.ai/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ha" href="https://deen.ai/ha/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://deen.ai/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://deen.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://deen.ai/it/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://deen.ai/kk/"/>
+    <xhtml:link rel="alternate" hreflang="ky" href="https://deen.ai/ky/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://deen.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://deen.ai/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ps" href="https://deen.ai/ps/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://deen.ai/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://deen.ai/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sd" href="https://deen.ai/sd/"/>
+    <xhtml:link rel="alternate" hreflang="so" href="https://deen.ai/so/"/>
+    <xhtml:link rel="alternate" hreflang="sq" href="https://deen.ai/sq/"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://deen.ai/sw/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://deen.ai/ta/"/>
+    <xhtml:link rel="alternate" hreflang="tg" href="https://deen.ai/tg/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://deen.ai/tr/"/>
+    <xhtml:link rel="alternate" hreflang="tt" href="https://deen.ai/tt/"/>
+    <xhtml:link rel="alternate" hreflang="ug" href="https://deen.ai/ug/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://deen.ai/ur/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://deen.ai/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://deen.ai/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://deen.ai/"/>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
