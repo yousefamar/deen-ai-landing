@@ -17,26 +17,39 @@ Static [Eleventy](https://www.11ty.dev/) site, deployed to **GitHub Pages**.
   grid and the JSON-LD. Tag values that render a coloured pill:
   `Product` (green), `Dataset` (blue), `Model` (yellow), `Code` (purple), `Evaluation` (pink).
   Any other tag value renders nothing.
-- `index.html` + `tailwind.css` — the **committed build outputs** (`index.html` is rendered from
-  `index.njk`; `tailwind.css` is the minified, tree-shaken stylesheet). Both must be committed.
+- **i18n (34 locales):** `index.njk` paginates over `_data/locales.json` to emit one page per locale —
+  `index.html` (en = root + x-default) plus `<code>/index.html` for the other 33 (`ar/`, `de/`, …). Each
+  locale's strings live in `_data/i18n/<code>.json` (full UI + SEO fields: title/meta/OG, `htmlLang`,
+  `ogLocale`, `dir`; non-en are AI drafts flagged `_draft`/`_review`). Per-page SEO (canonical, reciprocal
+  hreflang + x-default, OG locale alternates, JSON-LD) is data-driven, so **adding a locale = add its JSON +
+  add the code to `locales.json` + rebuild** (no template change). **Auto-localize:** a tiny `<head>` script
+  redirects ONLY the homepage `/` to the visitor's browser-language locale (locale pages never redirect, so
+  crawlers index every version); a crawlable language switcher (top corner, real `<a>` links to all locales)
+  lets users override, choice remembered in `localStorage`. RTL (`dir=rtl`) for ar/ur/fa/ps/ug/sd/ckb; the
+  logo+wordmark row is forced `dir=ltr` so the logo stays left.
+- **Committed build outputs — ALL of these:** `index.html`, every `<code>/index.html` locale page, the
+  generated `sitemap.xml` (from `sitemap.njk`, loops `locales`), and `tailwind.css` (minified, tree-shaken).
+  `git add -A` after a rebuild to catch them all.
 - SEO assets: `og-image.png` (1200×630 social card; **source** is `og/card.html`, render it with
-  the headless-Chrome command below), `robots.txt`, `sitemap.xml`, `site.webmanifest`.
+  the headless-Chrome command below), `robots.txt`, `sitemap.njk` (→ generates `sitemap.xml`), `site.webmanifest`.
 - `.github/workflows/static.yml` — on push to `main`, uploads the whole repo (`path: '.'`) and
   deploys to Pages. **It does NOT build anything** (no Eleventy, no Tailwind).
 
 ## ⚠️ The one gotcha that bites every time
-CI builds **nothing** — it serves committed files as-is. So editing `index.njk`, `_data/gallery.json`,
-or any Tailwind class does **nothing** in production until you **regenerate and commit both
-`index.html` AND `tailwind.css`**. Always rebuild after touching a template, the data, or styling.
+CI builds **nothing** — it serves committed files as-is. So editing `index.njk`, `_data/*.json`, an i18n
+string, or any Tailwind class does **nothing** in production until you **rebuild and commit ALL outputs**:
+`index.html`, all 33 `<code>/index.html` locale pages, `sitemap.xml`, AND `tailwind.css` (`git add -A` is
+safest). Always rebuild after touching a template, the data, the locales, or styling.
 
-### Rebuild (regenerates `index.html` + `tailwind.css`)
+### Rebuild (regenerates all locale pages + `sitemap.xml` + `tailwind.css`)
 ```bash
 # from repo root. First run only: `npm install` (pulls eleventy + tailwind devDeps; node_modules is gitignored).
-npm run build      # = eleventy render (html) + tailwindcss --minify (css). Commit both outputs.
+npm run build      # eleventy (all 34 locales + sitemap) + tailwindcss --minify. Commit ALL outputs (git add -A).
 ```
-`npm run html` and `npm run css` run the two halves separately if needed. The `html` script writes a
-temporary `.eleventyignore` (so `index.html`/`privacy`/`og`/`CLAUDE.md` aren't read as templates) and
-cleans it up afterwards.
+`npm run html` and `npm run css` run the two halves separately if needed. The `html` script runs
+`gen-ignore.mjs` first, which **generates `.eleventyignore` from `locales.json`** (so `index.html`, the
+generated locale dirs, `privacy`/`og`/`CLAUDE.md` aren't re-read as templates) then cleans it up. Adding a
+locale needs no script edit — `gen-ignore.mjs` and `sitemap.njk` both read `locales.json`.
 
 ### Regenerate the social card (`og-image.png`)
 Source is `og/card.html` (real `deen.png` logo + the mosque silhouette in `og/mosque.svg`, recoloured).
