@@ -1,4 +1,12 @@
 [{
+  "title": "UmmahAPI",
+  "description": "Free Islamic REST API: Quran, hadith, prayer times, qibla, duas and more for building Muslim apps",
+  "img": "/img/ummahapi.png",
+  "url": "https://ummahapi.com/",
+  "tags": [
+    "Product"
+  ]
+}, {
   "title": "Tarteel AI",
   "description": "Get live feedback on your Quran recitation using AI",
   "img": "https://play-lh.googleusercontent.com/5IkLUploK0rfcLSmh3h9xyz-BQnTTQ9aA9NY-6OUc9HWyJVL82XSNJ2hgj_Lgvioe6P3=w2560-h1440-rw",
@@ -97,7 +105,7 @@
 }, {
   "title": "LK Hadith Corpus",
   "description": "Cleaned up corpus of hadith",
-  "img": "https://opengraph.githubassets.com/d70ea0cbea6665e7091ceacb42ce34d3775bd8e12e9d5c3443966c48b757b234/ShathaTm/LK-Hadith-Corpus",
+  "img": "/img/lk-hadith-corpus.png",
   "url": "https://github.com/ShathaTm/LK-Hadith-Corpus",
   "tags": [
     "Dataset"
