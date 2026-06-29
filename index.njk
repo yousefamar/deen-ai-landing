@@ -24,6 +24,30 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Auto-localize, SEO-safe: runs ONLY on the homepage "/" and only forwards to a
+       locale. Locale pages never redirect, so crawlers index every version; the user's
+       explicit choice (set by the switcher) is remembered and always wins. -->
+  <script>
+    (function () {
+      try {
+        if (location.pathname.replace(/index\.html$/, "") !== "/") return;
+        var avail = {{ locales | dump | safe }};
+        var stored = null; try { stored = localStorage.getItem("deenLocale"); } catch (e) {}
+        var target = stored;
+        if (!target) {
+          var prefs = navigator.languages || [navigator.language] || [];
+          for (var i = 0; i < prefs.length; i++) {
+            var raw = (prefs[i] || "").toLowerCase(); if (!raw) continue;
+            var base = raw.split("-")[0];
+            var c = avail.indexOf(raw) >= 0 ? raw : (base === "zh" ? "zh" : (avail.indexOf(base) >= 0 ? base : null));
+            if (c) { target = c; break; }
+          }
+        }
+        if (target && target !== "en" && avail.indexOf(target) >= 0) location.replace("/" + target + "/");
+      } catch (e) {}
+    })();
+  </script>
+
   <title>{{ t.title }}</title>
   <meta name="description" content="{{ t.metaDescription }}">
   <link rel="canonical" href="{{ pageUrl }}">
@@ -79,6 +103,20 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
 </head>
 
 <body>
+
+<!-- Language switcher: real crawlable <a> links to every locale (helps search engines
+     discover all versions; lets users choose). No auto-redirect, by design. -->
+<details class="fixed top-3 end-3 z-50 text-sm">
+  <summary class="list-none cursor-pointer inline-flex items-center gap-1.5 rounded-full bg-white/80 px-3 py-1.5 font-medium text-gray-700 shadow ring-1 ring-gray-200 backdrop-blur hover:bg-white">
+    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.6" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3M3.6 9h16.8M3.6 15h16.8"/></svg>
+    <span>{{ t.name }}</span>
+  </summary>
+  <div class="absolute end-0 mt-2 max-h-[70vh] w-52 overflow-auto rounded-xl bg-white p-1 text-start shadow-lg ring-1 ring-gray-200">
+    {%- for code in locales %}
+    <a href="{{ baseUrl if code == 'en' else (baseUrl + code + '/') }}" hreflang="{{ i18n[code].htmlLang }}" lang="{{ i18n[code].htmlLang }}" dir="{{ i18n[code].dir }}" data-loc="{{ code }}" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 {% if code == localeCode %}font-semibold text-emerald-700{% else %}text-gray-700{% endif %}"{% if code == localeCode %} aria-current="true"{% endif %}>{{ i18n[code].name }}</a>
+    {%- endfor %}
+  </div>
+</details>
 
 <div class="min-h-svh flex flex-col bg-gradient-to-b from-cyan-50 to-green-50">
   <div class="flex-1 flex items-center justify-center px-6 py-12">
@@ -197,6 +235,15 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
       form.reset();
     });
   })();
+</script>
+
+<script>
+  // Remember an explicit language choice so the homepage auto-redirect always honours it.
+  document.querySelectorAll("a[data-loc]").forEach(function (a) {
+    a.addEventListener("click", function () {
+      try { localStorage.setItem("deenLocale", a.getAttribute("data-loc")); } catch (e) {}
+    });
+  });
 </script>
 
 </body>

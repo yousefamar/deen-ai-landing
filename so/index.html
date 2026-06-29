@@ -5,6 +5,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Auto-localize, SEO-safe: runs ONLY on the homepage "/" and only forwards to a
+       locale. Locale pages never redirect, so crawlers index every version; the user's
+       explicit choice (set by the switcher) is remembered and always wins. -->
+  <script>
+    (function () {
+      try {
+        if (location.pathname.replace(/index\.html$/, "") !== "/") return;
+        var avail = ["en","am","ar","az","bn","bs","ckb","de","es","fa","fr","ha","hi","id","it","kk","ky","ms","nl","ps","pt","ru","sd","so","sq","sw","ta","tg","tr","tt","ug","ur","uz","zh"];
+        var stored = null; try { stored = localStorage.getItem("deenLocale"); } catch (e) {}
+        var target = stored;
+        if (!target) {
+          var prefs = navigator.languages || [navigator.language] || [];
+          for (var i = 0; i < prefs.length; i++) {
+            var raw = (prefs[i] || "").toLowerCase(); if (!raw) continue;
+            var base = raw.split("-")[0];
+            var c = avail.indexOf(raw) >= 0 ? raw : (base === "zh" ? "zh" : (avail.indexOf(base) >= 0 ? base : null));
+            if (c) { target = c; break; }
+          }
+        }
+        if (target && target !== "en" && avail.indexOf(target) >= 0) location.replace("/" + target + "/");
+      } catch (e) {}
+    })();
+  </script>
+
   <title>deen.ai · Qalabka AI ee Islaamka, xog iyo moodalo</title>
   <meta name="description" content="deen.ai waa tusmo la xushay oo ka kooban qalabka, xogaha, moodalada iyo cilmi-baarista AI ee ku saabsan isku-dhafka garaadka macmalka ah (AI) iyo Islaamka.">
   <link rel="canonical" href="https://deen.ai/so/">
@@ -121,6 +145,51 @@
 </head>
 
 <body>
+
+<!-- Language switcher: real crawlable <a> links to every locale (helps search engines
+     discover all versions; lets users choose). No auto-redirect, by design. -->
+<details class="fixed top-3 end-3 z-50 text-sm">
+  <summary class="list-none cursor-pointer inline-flex items-center gap-1.5 rounded-full bg-white/80 px-3 py-1.5 font-medium text-gray-700 shadow ring-1 ring-gray-200 backdrop-blur hover:bg-white">
+    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.6" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3M3.6 9h16.8M3.6 15h16.8"/></svg>
+    <span>Soomaali</span>
+  </summary>
+  <div class="absolute end-0 mt-2 max-h-[70vh] w-52 overflow-auto rounded-xl bg-white p-1 text-start shadow-lg ring-1 ring-gray-200">
+    <a href="https://deen.ai/" hreflang="en" lang="en" dir="ltr" data-loc="en" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">English</a>
+    <a href="https://deen.ai/am/" hreflang="am" lang="am" dir="ltr" data-loc="am" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">አማርኛ</a>
+    <a href="https://deen.ai/ar/" hreflang="ar" lang="ar" dir="rtl" data-loc="ar" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">العربية</a>
+    <a href="https://deen.ai/az/" hreflang="az" lang="az" dir="ltr" data-loc="az" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Azərbaycan</a>
+    <a href="https://deen.ai/bn/" hreflang="bn" lang="bn" dir="ltr" data-loc="bn" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">বাংলা</a>
+    <a href="https://deen.ai/bs/" hreflang="bs" lang="bs" dir="ltr" data-loc="bs" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Bosanski</a>
+    <a href="https://deen.ai/ckb/" hreflang="ckb" lang="ckb" dir="rtl" data-loc="ckb" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">کوردیی ناوەندی</a>
+    <a href="https://deen.ai/de/" hreflang="de" lang="de" dir="ltr" data-loc="de" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Deutsch</a>
+    <a href="https://deen.ai/es/" hreflang="es" lang="es" dir="ltr" data-loc="es" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Español</a>
+    <a href="https://deen.ai/fa/" hreflang="fa" lang="fa" dir="rtl" data-loc="fa" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">فارسی</a>
+    <a href="https://deen.ai/fr/" hreflang="fr" lang="fr" dir="ltr" data-loc="fr" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Français</a>
+    <a href="https://deen.ai/ha/" hreflang="ha" lang="ha" dir="ltr" data-loc="ha" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Hausa</a>
+    <a href="https://deen.ai/hi/" hreflang="hi" lang="hi" dir="ltr" data-loc="hi" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">हिन्दी</a>
+    <a href="https://deen.ai/id/" hreflang="id" lang="id" dir="ltr" data-loc="id" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Bahasa Indonesia</a>
+    <a href="https://deen.ai/it/" hreflang="it" lang="it" dir="ltr" data-loc="it" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Italiano</a>
+    <a href="https://deen.ai/kk/" hreflang="kk" lang="kk" dir="ltr" data-loc="kk" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Қазақ</a>
+    <a href="https://deen.ai/ky/" hreflang="ky" lang="ky" dir="ltr" data-loc="ky" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Кыргызча</a>
+    <a href="https://deen.ai/ms/" hreflang="ms" lang="ms" dir="ltr" data-loc="ms" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Bahasa Melayu</a>
+    <a href="https://deen.ai/nl/" hreflang="nl" lang="nl" dir="ltr" data-loc="nl" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Nederlands</a>
+    <a href="https://deen.ai/ps/" hreflang="ps" lang="ps" dir="rtl" data-loc="ps" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">پښتو</a>
+    <a href="https://deen.ai/pt/" hreflang="pt" lang="pt" dir="ltr" data-loc="pt" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Português</a>
+    <a href="https://deen.ai/ru/" hreflang="ru" lang="ru" dir="ltr" data-loc="ru" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Русский</a>
+    <a href="https://deen.ai/sd/" hreflang="sd" lang="sd" dir="rtl" data-loc="sd" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">سنڌي</a>
+    <a href="https://deen.ai/so/" hreflang="so" lang="so" dir="ltr" data-loc="so" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 font-semibold text-emerald-700" aria-current="true">Soomaali</a>
+    <a href="https://deen.ai/sq/" hreflang="sq" lang="sq" dir="ltr" data-loc="sq" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Shqip</a>
+    <a href="https://deen.ai/sw/" hreflang="sw" lang="sw" dir="ltr" data-loc="sw" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Kiswahili</a>
+    <a href="https://deen.ai/ta/" hreflang="ta" lang="ta" dir="ltr" data-loc="ta" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">தமிழ்</a>
+    <a href="https://deen.ai/tg/" hreflang="tg" lang="tg" dir="ltr" data-loc="tg" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Тоҷикӣ</a>
+    <a href="https://deen.ai/tr/" hreflang="tr" lang="tr" dir="ltr" data-loc="tr" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Türkçe</a>
+    <a href="https://deen.ai/tt/" hreflang="tt" lang="tt" dir="ltr" data-loc="tt" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Татарча</a>
+    <a href="https://deen.ai/ug/" hreflang="ug" lang="ug" dir="rtl" data-loc="ug" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">ئۇيغۇرچە</a>
+    <a href="https://deen.ai/ur/" hreflang="ur" lang="ur" dir="rtl" data-loc="ur" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">اردو</a>
+    <a href="https://deen.ai/uz/" hreflang="uz" lang="uz" dir="ltr" data-loc="uz" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">Oʻzbek</a>
+    <a href="https://deen.ai/zh/" hreflang="zh-Hans" lang="zh-Hans" dir="ltr" data-loc="zh" class="block rounded-lg px-3 py-1.5 hover:bg-gray-100 text-gray-700">简体中文</a>
+  </div>
+</details>
 
 <div class="min-h-svh flex flex-col bg-gradient-to-b from-cyan-50 to-green-50">
   <div class="flex-1 flex items-center justify-center px-6 py-12">
@@ -541,6 +610,15 @@
       form.reset();
     });
   })();
+</script>
+
+<script>
+  // Remember an explicit language choice so the homepage auto-redirect always honours it.
+  document.querySelectorAll("a[data-loc]").forEach(function (a) {
+    a.addEventListener("click", function () {
+      try { localStorage.setItem("deenLocale", a.getAttribute("data-loc")); } catch (e) {}
+    });
+  });
 </script>
 
 </body>
