@@ -6,11 +6,11 @@
   "dir": "ltr",
   "ogLocale": "id_ID",
   "name": "Bahasa Indonesia",
-  "title": "deen.ai · Alat, dataset & model AI Islami",
-  "metaDescription": "deen.ai adalah direktori pilihan berisi alat, dataset, model, dan riset AI di persimpangan antara kecerdasan buatan dan Islam.",
-  "ogTitle": "deen.ai · AI + Islam",
-  "ogDescription": "Direktori pilihan berisi alat, dataset, model, dan riset AI di persimpangan antara kecerdasan buatan dan Islam.",
-  "ogImageAlt": "deen.ai · AI + Islam",
+  "title": "deen.ai · AI Islami yang menjawab pertanyaan Anda",
+  "metaDescription": "Bot WhatsApp gratis untuk pertanyaan tentang Islam, berlandaskan 142,000+ fatwa nyata yang dikutip. ChatGPT Muslim pribadi Anda.",
+  "ogTitle": "deen.ai · AI Islami yang menjawab pertanyaan Anda",
+  "ogDescription": "Bot WhatsApp gratis untuk pertanyaan tentang Islam, berlandaskan 142,000+ fatwa nyata yang dikutip. ChatGPT Muslim pribadi Anda.",
+  "ogImageAlt": "deen.ai · AI Islami yang menjawab pertanyaan Anda",
   "heroSubtitle": "AI + Islam",
   "askButton": "Ajukan pertanyaan",
   "joinButton": "Gabung komunitas",
@@ -22,6 +22,6 @@
   "askPlaceholder": "mis. Bolehkah menjamak salat saat bepergian?",
   "askSubmit": "Tanya",
   "askClose": "Tutup",
-  "jsonLdName": "deen.ai · AI + Islam",
-  "jsonLdDescription": "Direktori pilihan berisi alat, dataset, model, dan riset AI di persimpangan antara kecerdasan buatan dan Islam."
+  "jsonLdName": "deen.ai · AI Islami yang menjawab pertanyaan Anda",
+  "jsonLdDescription": "Bot WhatsApp gratis untuk pertanyaan tentang Islam, berlandaskan 142,000+ fatwa nyata yang dikutip. ChatGPT Muslim pribadi Anda."
 }
