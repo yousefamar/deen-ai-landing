@@ -4,11 +4,11 @@
   "dir": "ltr",
   "ogLocale": "en_GB",
   "name": "English",
-  "title": "deen.ai · Islamic AI tools, datasets & models",
-  "metaDescription": "deen.ai is a curated directory of AI tools, datasets, models and research at the intersection of artificial intelligence and Islam.",
-  "ogTitle": "deen.ai · AI + Islam",
-  "ogDescription": "A curated directory of AI tools, datasets, models and research at the intersection of artificial intelligence and Islam.",
-  "ogImageAlt": "deen.ai · AI + Islam",
+  "title": "deen.ai · Islamic AI answering your questions",
+  "metaDescription": "A free WhatsApp bot for questions about Islam, grounded in 142,000+ real cited fatwas. Your personal Muslim ChatGPT.",
+  "ogTitle": "deen.ai · Islamic AI answering your questions",
+  "ogDescription": "A free WhatsApp bot for questions about Islam, grounded in 142,000+ real cited fatwas. Your personal Muslim ChatGPT.",
+  "ogImageAlt": "deen.ai · Islamic AI answering your questions",
   "heroSubtitle": "AI + Islam",
   "askButton": "Ask a question",
   "joinButton": "Join the community",
@@ -20,6 +20,6 @@
   "askPlaceholder": "e.g. Can I combine prayers while travelling?",
   "askSubmit": "Ask",
   "askClose": "Close",
-  "jsonLdName": "deen.ai · AI + Islam",
-  "jsonLdDescription": "A curated directory of AI tools, datasets, models and research at the intersection of artificial intelligence and Islam."
+  "jsonLdName": "deen.ai · Islamic AI answering your questions",
+  "jsonLdDescription": "A free WhatsApp bot for questions about Islam, grounded in 142,000+ real cited fatwas. Your personal Muslim ChatGPT."
 }
