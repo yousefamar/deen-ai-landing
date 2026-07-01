@@ -5,9 +5,9 @@
   "ogLocale": "en_GB",
   "name": "English",
   "title": "deen.ai · Islamic AI answering your questions",
-  "metaDescription": "A free WhatsApp bot for questions about Islam, grounded in 142,000+ real cited fatwas. Your personal Muslim ChatGPT.",
+  "metaDescription": "A free WhatsApp bot for questions about Islam, grounded in 165,000+ real cited fatwas. Your personal Muslim ChatGPT.",
   "ogTitle": "deen.ai · Islamic AI answering your questions",
-  "ogDescription": "A free WhatsApp bot for questions about Islam, grounded in 142,000+ real cited fatwas. Your personal Muslim ChatGPT.",
+  "ogDescription": "A free WhatsApp bot for questions about Islam, grounded in 165,000+ real cited fatwas. Your personal Muslim ChatGPT.",
   "ogImageAlt": "deen.ai · Islamic AI answering your questions",
   "heroSubtitle": "AI + Islam",
   "askButton": "Ask a question",
@@ -16,10 +16,10 @@
   "galleryHeading": "Gallery",
   "footerCredit": "Made for the sake of Allah by {creditLink}",
   "askDialogHeading": "Ask a question",
-  "askDialogSubtitle": "Our AI is grounded in 142,000+ real fatwas. If one cannot be cited, you will be asked to refer to a human scholar instead. Allah knows best.",
+  "askDialogSubtitle": "Our AI is grounded in 165,000+ real fatwas. If one cannot be cited, you will be asked to refer to a human scholar instead. Allah knows best.",
   "askPlaceholder": "e.g. Can I combine prayers while travelling?",
   "askSubmit": "Ask",
   "askClose": "Close",
   "jsonLdName": "deen.ai · Islamic AI answering your questions",
-  "jsonLdDescription": "A free WhatsApp bot for questions about Islam, grounded in 142,000+ real cited fatwas. Your personal Muslim ChatGPT."
+  "jsonLdDescription": "A free WhatsApp bot for questions about Islam, grounded in 165,000+ real cited fatwas. Your personal Muslim ChatGPT."
 }
