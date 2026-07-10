@@ -23,5 +23,12 @@
   "jsonLdName": "deen.ai · Savollaringizga javob beradigan islomiy sunʼiy intellekt",
   "jsonLdDescription": "Islom haqidagi savollar uchun bepul WhatsApp boti, manbasi keltirilgan 165 000+ haqiqiy fatvoga asoslangan. Sizning shaxsiy musulmon ChatGPTʼingiz.",
   "_draft": true,
-  "_review": "AI review pass 2026-07-06: corrections applied"
+  "_review": "AI review pass 2026-07-06: corrections applied",
+  "downBanner": "WhatsApp yordamchimiz vaqtincha ishlamayapti. Raqamingizni qoldiring, qaytishimiz bilanoq sizga xabar yozamiz, inshaAlloh.",
+  "downTitle": "Qaytganimizda sizga xabar yozamiz",
+  "downPhonePlaceholder": "WhatsApp raqamingiz, masalan +44 7123 456789",
+  "downQuestionPlaceholder": "Ixtiyoriy: savolingiz",
+  "downSubmit": "Menga xabar bering",
+  "downThanks": "Qabul qilindi, Alloh rozi boʻlsin. Qaytishimiz bilanoq sizga xabar yozamiz.",
+  "downError": "Nimadir xato ketdi, iltimos, qayta urinib koʻring."
 }

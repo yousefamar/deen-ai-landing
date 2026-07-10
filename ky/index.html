@@ -625,17 +625,17 @@
     <button type="button" onclick="document.getElementById('downDialog').close()" aria-label="close" class="absolute right-4 top-4 rtl:right-auto rtl:left-4 text-gray-400 hover:text-gray-600">
       <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg>
     </button>
-    <h2 class="text-center text-lg font-semibold text-gray-900">We&#39;ll message you when we&#39;re back</h2>
-    <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">Our WhatsApp assistant is temporarily unavailable. Leave your number and we will message you the moment we are back, in shaa Allah.</p>
-    <input id="downPhone" type="tel" required placeholder="Your WhatsApp number, e.g. +44 7123 456789"
+    <h2 class="text-center text-lg font-semibold text-gray-900">Кайра келгенде сизге жазабыз</h2>
+    <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">WhatsApp жардамчыбыз убактылуу иштебей турат. Номериңизди калтырыңыз, кайра келгенде эле сизге жазабыз, Аллах кааласа.</p>
+    <input id="downPhone" type="tel" required placeholder="WhatsApp номериңиз, мисалы +44 7123 456789"
       class="mt-4 block w-full rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 text-start" dir="ltr">
-    <textarea id="downQ" rows="2" maxlength="500" placeholder="Optional: your question"
+    <textarea id="downQ" rows="2" maxlength="500" placeholder="Милдеттүү эмес: сурооңуз"
       class="mt-3 block w-full resize-none rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 text-start"></textarea>
     <input id="downHp" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
     <p id="downMsg" class="mt-2 hidden text-center text-sm"></p>
     <div class="mt-5 flex justify-center">
       <button type="submit" id="downBtn"
-        class="inline-flex items-center justify-center rounded-full bg-gradient-to-br from-green-600 to-emerald-500 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:shadow-lg">Notify me</button>
+        class="inline-flex items-center justify-center rounded-full bg-gradient-to-br from-green-600 to-emerald-500 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:shadow-lg">Мага кабар бергиле</button>
     </div>
   </form>
 </dialog>
@@ -666,11 +666,11 @@
         body: JSON.stringify({ phone: document.getElementById('downPhone').value, question: document.getElementById('downQ').value, website: document.getElementById('downHp').value })
       }).then(function (r) { return r.json(); }).then(function (d) {
         msg.classList.remove('hidden');
-        if (d.ok) { msg.textContent = "Received, jazakum Allahu khayran. We will message you as soon as we are back."; msg.className = 'mt-2 text-center text-sm text-green-700'; document.getElementById('downForm').querySelectorAll('input,textarea,button[type=submit]').forEach(function (el) { el.disabled = true; }); }
-        else { msg.textContent = "Something went wrong, please try again."; msg.className = 'mt-2 text-center text-sm text-red-600'; btn.disabled = false; }
+        if (d.ok) { msg.textContent = "Кабыл алынды, Аллах ыраазы болсун. Кайра келгенде эле сизге жазабыз."; msg.className = 'mt-2 text-center text-sm text-green-700'; document.getElementById('downForm').querySelectorAll('input,textarea,button[type=submit]').forEach(function (el) { el.disabled = true; }); }
+        else { msg.textContent = "Бир нерсе туура эмес болуп калды, кайра аракет кылып көрүңүз."; msg.className = 'mt-2 text-center text-sm text-red-600'; btn.disabled = false; }
       }).catch(function () {
         msg.classList.remove('hidden');
-        msg.textContent = "Something went wrong, please try again."; msg.className = 'mt-2 text-center text-sm text-red-600'; btn.disabled = false;
+        msg.textContent = "Бир нерсе туура эмес болуп калды, кайра аракет кылып көрүңүз."; msg.className = 'mt-2 text-center text-sm text-red-600'; btn.disabled = false;
       });
     });
   })();

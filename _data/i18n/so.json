@@ -23,5 +23,12 @@
   "jsonLdName": "deen.ai · AI Islaami ah oo ka jawaabaya su'aalahaaga",
   "jsonLdDescription": "Bot WhatsApp ah oo bilaash ah oo loogu talagalay su'aalaha ku saabsan Islaamka, ku salaysan 165,000+ oo fatwo dhab ah oo la tixraacay. ChatGPT-gaaga gaarka ah ee Muslimka ah.",
   "_draft": true,
-  "_review": "AI review pass 2026-07-06: corrections applied"
+  "_review": "AI review pass 2026-07-06: corrections applied",
+  "downBanner": "Kaaliyahayaga WhatsApp si ku meel gaadh ah ayaan hadda loo heli karin. Nambarkaaga noo dhaaf, waxaan kuu soo diri doonnaa fariin isla marka aan soo laabanno, insha Allaah.",
+  "downTitle": "Waxaan kuu soo diri doonnaa fariin marka aan soo laabanno",
+  "downPhonePlaceholder": "Nambarkaaga WhatsApp, tusaale +44 7123 456789",
+  "downQuestionPlaceholder": "Ikhtiyaari: su'aashaada",
+  "downSubmit": "Ii soo ogeysii",
+  "downThanks": "Waa la helay, jazaakumullaahu khayran. Waxaan kuu soo diri doonnaa fariin isla marka aan soo laabanno.",
+  "downError": "Wax baa qaldamay, fadlan mar kale isku day."
 }

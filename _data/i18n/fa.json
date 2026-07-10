@@ -23,5 +23,12 @@
   "jsonLdName": "deen.ai · هوش مصنوعی اسلامی که به سؤالات شما پاسخ می‌دهد",
   "jsonLdDescription": "یک ربات رایگان WhatsApp برای پرسش‌های مربوط به اسلام، بر پایه‌ی بیش از ۱۶۵٬۰۰۰ فتوای واقعی و قابل استناد. ChatGPT شخصی مسلمان شما.",
   "_draft": true,
-  "_review": "AI review pass 2026-07-06: corrections applied"
+  "_review": "AI review pass 2026-07-06: corrections applied",
+  "downBanner": "دستیار WhatsApp ما به طور موقت در دسترس نیست. شماره‌ی خود را بگذارید و به محض بازگشت به شما پیام می‌دهیم، ان شاء الله.",
+  "downTitle": "به محض بازگشت به شما پیام می‌دهیم",
+  "downPhonePlaceholder": "شماره WhatsApp شما، مثلا +44 7123 456789",
+  "downQuestionPlaceholder": "اختیاری: سؤال شما",
+  "downSubmit": "به من خبر دهید",
+  "downThanks": "دریافت شد، جزاکم الله خیرا. به محض بازگشت به شما پیام می‌دهیم.",
+  "downError": "مشکلی پیش آمد، لطفا دوباره تلاش کنید."
 }

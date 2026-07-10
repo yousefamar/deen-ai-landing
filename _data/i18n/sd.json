@@ -23,5 +23,12 @@
   "jsonLdName": "deen.ai · اسلامي اي آءِ جيڪا توهان جي سوالن جا جواب ڏئي",
   "jsonLdDescription": "اسلام بابت سوالن لاءِ هڪ مفت WhatsApp بوٽ، جيڪو 165,000+ حقيقي ۽ حوالا ڏنل فتوائن تي ٻڌل آهي. توهان جو ذاتي مسلم ChatGPT.",
   "_draft": true,
-  "_review": "AI review pass 2026-07-06: corrections applied"
+  "_review": "AI review pass 2026-07-06: corrections applied",
+  "downBanner": "اسان جو WhatsApp اسسٽنٽ ڪجهه وقت لاءِ دستياب ناهي. پنهنجو نمبر ڇڏي وڃو، جيئن ئي واپس اينداسين ته توهان کي ميسيج ڪنداسين، ان شاء الله.",
+  "downTitle": "جڏهن واپس اينداسين ته توهان کي ميسيج ڪنداسين",
+  "downPhonePlaceholder": "توهان جو WhatsApp نمبر، مثال طور +44 7123 456789",
+  "downQuestionPlaceholder": "اختياري: توهان جو سوال",
+  "downSubmit": "مون کي اطلاع ڏيو",
+  "downThanks": "ملي ويو، جزاكم الله خيرا. جيئن ئي واپس اينداسين ته توهان کي ميسيج ڪنداسين.",
+  "downError": "ڪا خرابي ٿي وئي، مهرباني ڪري ٻيهر ڪوشش ڪريو."
 }

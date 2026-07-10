@@ -23,5 +23,12 @@
   "jsonLdName": "deen.ai · Islamski AI koji odgovara na vaša pitanja",
   "jsonLdDescription": "Besplatan WhatsApp bot za pitanja o islamu, zasnovan na 165.000+ stvarnih fetvi s navedenim izvorima. Vaš lični muslimanski ChatGPT.",
   "_draft": true,
-  "_review": "AI review pass 2026-07-06: corrections applied"
+  "_review": "AI review pass 2026-07-06: corrections applied",
+  "downBanner": "Naš WhatsApp asistent trenutno nije dostupan. Ostavite svoj broj i javit ćemo vam se čim se vratimo, inšallah.",
+  "downTitle": "Javit ćemo vam se čim se vratimo",
+  "downPhonePlaceholder": "Vaš WhatsApp broj, npr. +44 7123 456789",
+  "downQuestionPlaceholder": "Neobavezno: vaše pitanje",
+  "downSubmit": "Obavijesti me",
+  "downThanks": "Primljeno, džazakumullahu hajren. Javit ćemo vam se čim se vratimo.",
+  "downError": "Nešto je pošlo po zlu, molimo pokušajte ponovo."
 }

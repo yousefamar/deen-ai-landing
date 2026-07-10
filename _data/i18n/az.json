@@ -23,5 +23,12 @@
   "jsonLdName": "deen.ai · Suallarınıza cavab verən İslam süni intellekti",
   "jsonLdDescription": "İslam haqqında suallar üçün pulsuz WhatsApp botu, 165.000+ real istinadlı fətvaya əsaslanır. Sizin şəxsi müsəlman ChatGPT-niz.",
   "_draft": true,
-  "_review": "AI review pass 2026-07-06: corrections applied"
+  "_review": "AI review pass 2026-07-06: corrections applied",
+  "downBanner": "WhatsApp köməkçimiz müvəqqəti olaraq əlçatan deyil. Nömrənizi qeyd edin, geri qayıdan kimi sizə yazacağıq, inşallah.",
+  "downTitle": "Geri qayıdanda sizə yazacağıq",
+  "downPhonePlaceholder": "WhatsApp nömrəniz, məsələn +44 7123 456789",
+  "downQuestionPlaceholder": "İstəyə bağlı: sualınız",
+  "downSubmit": "Mənə xəbər verin",
+  "downThanks": "Alındı, Allah sizdən razı olsun (cəzakumullahu xeyran). Geri qayıdan kimi sizə yazacağıq.",
+  "downError": "Xəta baş verdi, zəhmət olmasa yenidən cəhd edin."
 }

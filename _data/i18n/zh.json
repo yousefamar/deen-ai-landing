@@ -23,5 +23,12 @@
   "jsonLdName": "deen.ai · 为你解答伊斯兰问题的人工智能",
   "jsonLdDescription": "一个免费的 WhatsApp 机器人，回答有关伊斯兰的问题，依据 165,000+ 条有真实引证的教法判例（fatwa）。你的专属穆斯林 ChatGPT。",
   "_draft": true,
-  "_review": "AI review pass 2026-07-06: corrections applied"
+  "_review": "AI review pass 2026-07-06: corrections applied",
+  "downBanner": "我们的 WhatsApp 助手暂时无法使用。请留下你的号码，我们一恢复就会给你发消息，如真主意欲（إن شاء الله）。",
+  "downTitle": "恢复后我们会给你发消息",
+  "downPhonePlaceholder": "你的 WhatsApp 号码，例如 +44 7123 456789",
+  "downQuestionPlaceholder": "选填：你的问题",
+  "downSubmit": "通知我",
+  "downThanks": "已收到，愿真主回赐你（جزاكم الله خيرا）。我们一恢复就会给你发消息。",
+  "downError": "出了点问题，请重试。"
 }

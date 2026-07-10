@@ -23,5 +23,12 @@
   "jsonLdName": "deen.ai · ጥያቄዎችዎን የሚመልስ የእስልምና አርቴፊሻል ኢንተለጀንስ",
   "jsonLdDescription": "ስለ እስልምና ለሚነሱ ጥያቄዎች ነፃ የWhatsApp ቦት፣ በ165,000+ እውነተኛ የተጠቀሱ ፈትዋዎች ላይ የተመሠረተ። የእርስዎ የግል የሙስሊም ChatGPT።",
   "_draft": true,
-  "_review": "AI review pass 2026-07-06: corrections applied"
+  "_review": "AI review pass 2026-07-06: corrections applied",
+  "downBanner": "የWhatsApp ረዳታችን ለጊዜው አይገኝም። ስልክ ቁጥርዎን ይተዉልን፣ እንደተመለስን ወዲያውኑ መልእክት እንልክልዎታለን፣ ኢንሻአላህ።",
+  "downTitle": "ስንመለስ መልእክት እንልክልዎታለን",
+  "downPhonePlaceholder": "የWhatsApp ቁጥርዎ፣ ለምሳሌ +44 7123 456789",
+  "downQuestionPlaceholder": "አማራጭ፦ ጥያቄዎ",
+  "downSubmit": "አሳውቁኝ",
+  "downThanks": "ደርሶናል፣ ጃዛኩሙላሁ ኸይረን። እንደተመለስን ወዲያውኑ መልእክት እንልክልዎታለን።",
+  "downError": "የሆነ ስህተት ተፈጥሯል፣ እባክዎ እንደገና ይሞክሩ።"
 }

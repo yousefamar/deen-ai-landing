@@ -23,5 +23,12 @@
   "jsonLdName": "deen.ai · AI Islam yang menjawab soalan anda",
   "jsonLdDescription": "Bot WhatsApp percuma untuk soalan tentang Islam, berlandaskan 165,000+ fatwa sebenar yang dirujuk. ChatGPT Muslim peribadi anda.",
   "_draft": true,
-  "_review": "AI review pass 2026-07-06: no changes needed"
+  "_review": "AI review pass 2026-07-06: no changes needed",
+  "downBanner": "Pembantu WhatsApp kami tidak tersedia buat sementara waktu. Tinggalkan nombor anda dan kami akan menghantar mesej sebaik sahaja kami kembali, insya-Allah.",
+  "downTitle": "Kami akan menghantar mesej apabila kami kembali",
+  "downPhonePlaceholder": "Nombor WhatsApp anda, cth. +44 7123 456789",
+  "downQuestionPlaceholder": "Pilihan: soalan anda",
+  "downSubmit": "Maklumkan saya",
+  "downThanks": "Diterima, jazakumullahu khairan. Kami akan menghantar mesej sebaik sahaja kami kembali.",
+  "downError": "Berlaku ralat, sila cuba lagi."
 }

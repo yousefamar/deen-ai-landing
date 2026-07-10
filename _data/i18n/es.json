@@ -23,5 +23,12 @@
   "jsonLdName": "deen.ai · IA islámica que responde tus preguntas",
   "jsonLdDescription": "Un bot gratuito de WhatsApp para preguntas sobre el islam, basado en 165.000+ fatwas reales y citadas. Tu ChatGPT musulmán personal.",
   "_draft": true,
-  "_review": "AI review pass 2026-07-06: corrections applied"
+  "_review": "AI review pass 2026-07-06: corrections applied",
+  "downBanner": "Nuestro asistente de WhatsApp no está disponible temporalmente. Deja tu número y te escribiremos en cuanto volvamos, in sha Allah.",
+  "downTitle": "Te escribiremos cuando volvamos",
+  "downPhonePlaceholder": "Tu número de WhatsApp, p. ej. +44 7123 456789",
+  "downQuestionPlaceholder": "Opcional: tu pregunta",
+  "downSubmit": "Avisarme",
+  "downThanks": "Recibido, jazakum Allahu khayran. Te escribiremos en cuanto volvamos.",
+  "downError": "Algo salió mal, inténtalo de nuevo."
 }
