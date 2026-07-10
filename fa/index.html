@@ -145,11 +145,6 @@
 </head>
 
 <body>
-<!-- TEMPORARY downtime banner: WhatsApp number under review. Flip _data/site.json downtime:false to remove. -->
-<div dir="rtl" class="bg-amber-50 border-b border-amber-200 px-4 py-3 pe-28 text-center text-sm text-amber-900">
-  Our WhatsApp assistant is temporarily unavailable. Leave your number and we will message you the moment we are back, in shaa Allah.
-  <button type="button" onclick="document.getElementById('downDialog').showModal()" class="ml-2 rtl:ml-0 rtl:mr-2 underline font-semibold">Notify me</button>
-</div>
 
 <!-- Language switcher: real crawlable <a> links to every locale (helps search engines
      discover all versions; lets users choose). No auto-redirect, by design. -->
@@ -647,11 +642,16 @@
 <script>
   (function () {
     var dlg = document.getElementById('downDialog');
-    // While the assistant is down, BOTH hero buttons capture a number instead of opening WhatsApp.
+    // While the assistant is down, BOTH hero buttons capture a number instead of opening
+    // WhatsApp. Ask keeps the optional question box; Join is phone-only.
+    function openDown(withQuestion) {
+      document.getElementById('downQ').style.display = withQuestion ? '' : 'none';
+      dlg.showModal();
+    }
     var ask = document.getElementById('askBtn');
-    if (ask) { var c = ask.cloneNode(true); ask.parentNode.replaceChild(c, ask); c.addEventListener('click', function (e) { e.preventDefault(); dlg.showModal(); }); }
+    if (ask) { var c = ask.cloneNode(true); ask.parentNode.replaceChild(c, ask); c.addEventListener('click', function (e) { e.preventDefault(); openDown(true); }); }
     document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function (a) {
-      a.addEventListener('click', function (e) { e.preventDefault(); dlg.showModal(); });
+      a.addEventListener('click', function (e) { e.preventDefault(); openDown(false); });
     });
     dlg.addEventListener('click', function (e) {
       var r = dlg.getBoundingClientRect();
