@@ -254,14 +254,18 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
     </button>
     <h2 class="text-center text-lg font-semibold text-gray-900">{{ t.downTitle or i18n.en.downTitle }}</h2>
     <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">{{ t.downBanner or i18n.en.downBanner }}</p>
-    <div class="mt-4 flex gap-2" dir="ltr">
-      <select id="downCC" required aria-label="Country dialing code"
-        class="w-[6rem] shrink-0 rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-green-600 bg-white">
-        <option value="" disabled selected>{{ t.downCountry or i18n.en.downCountry or "Code" }}</option>
+    <div class="mt-4" dir="ltr">
+      <input id="downCountry" list="downCCList" required autocomplete="off" spellcheck="false"
+        aria-label="{{ t.downCountry or i18n.en.downCountry or 'Country' }}" placeholder="{{ t.downCountry or i18n.en.downCountry or 'Country' }}"
+        class="block w-full rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600">
+      <datalist id="downCCList">
         {%- for c in dialcodes %}
-        <option value="{{ c.iso }}|{{ c.dial }}" data-dial="{{ c.dial }}" title="{{ c.name }}">{{ c.flag }} +{{ c.dial }}</option>
+        <option value="{{ c.flag }} {{ c.name }} (+{{ c.dial }})" data-iso="{{ c.iso }}" data-dial="{{ c.dial }}" data-name="{{ c.name }}"></option>
         {%- endfor %}
-      </select>
+      </datalist>
+    </div>
+    <div class="mt-2 flex items-center gap-2" dir="ltr">
+      <span id="downDial" class="shrink-0 select-none rounded-md px-3 py-3 text-sm text-gray-500 ring-1 ring-inset ring-gray-200 bg-gray-50" aria-hidden="true">+&nbsp;&nbsp;</span>
       <input id="downPhone" type="tel" inputmode="tel" required autocomplete="tel-national" placeholder="{{ t.downPhonePlaceholder or i18n.en.downPhonePlaceholder }}"
         class="min-w-0 flex-1 rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600" dir="ltr">
     </div>
@@ -280,14 +284,45 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
     var dlg = document.getElementById('downDialog');
     // While the assistant is down, BOTH hero buttons capture a number instead of opening
     // WhatsApp. Ask keeps the optional question box; Join is phone-only.
-    // Prefill the country dropdown from the page locale so the common case is one tap.
-    // Locale code (e.g. "ur", "ar") -> a representative country the dropdown already lists.
+    // Country picker is a native typeahead: users TYPE their country (or dial code) into
+    // #downCountry, the browser autocompletes from the <datalist>, and we resolve the choice
+    // to a dial code. Far easier to find than scrolling an unordered list of numbers.
+    var countryInp = document.getElementById('downCountry');
+    var dialTag = document.getElementById('downDial');
+    var opts = Array.prototype.map.call(document.getElementById('downCCList').options, function (o) {
+      return { label: o.value, iso: o.getAttribute('data-iso'), dial: o.getAttribute('data-dial'), name: (o.getAttribute('data-name') || '').toLowerCase() };
+    });
+    var byIso = {}; opts.forEach(function (o) { byIso[o.iso] = o; });
+    // Resolve the current text to ONE option. Handles: a datalist pick (full label incl. flag),
+    // a typed country name (exact or unique prefix), or a dial code. Strips the flag emoji and
+    // the trailing "(+NN)" so manual typing matches too; requires a UNIQUE hit to avoid guessing.
+    function resolve() {
+      var raw = (countryInp.value || '').trim().toLowerCase();
+      if (!raw) return null;
+      // country-name portion: drop a leading flag/punctuation and any trailing "(+digits)"
+      var nm = raw.replace(/\(\+?\d+\)\s*$/, '').replace(/^[^a-z]+/, '').trim();
+      var digits = raw.replace(/[^0-9]/g, '');
+      var exactName = opts.filter(function (o) { return o.name === nm; });
+      if (exactName.length) return exactName[0];
+      var pref = nm ? opts.filter(function (o) { return o.name.indexOf(nm) === 0; }) : [];
+      if (pref.length === 1) return pref[0];
+      var byDial = digits ? opts.filter(function (o) { return o.dial === digits; }) : [];
+      if (byDial.length === 1) return byDial[0];
+      return null;
+    }
+    function syncDial() {
+      var o = resolve();
+      dialTag.textContent = o ? ('+' + o.dial) : '+  ';
+      countryInp.dataset.dial = o ? o.dial : '';
+    }
+    countryInp.addEventListener('input', syncDial);
+    countryInp.addEventListener('change', syncDial);
+    // Prefill from the page locale so the common case is zero typing.
     var LOCALE_CC = { en:'GB', ar:'SA', ur:'PK', fa:'IR', ps:'AF', so:'SO', id:'ID', ms:'MY', tr:'TR', bn:'BD', hi:'IN', ta:'IN', sd:'PK', ha:'NG', sw:'KE', am:'ET', uz:'UZ', tg:'TJ', kk:'KZ', ky:'KG', az:'AZ', sq:'AL', bs:'BA', tt:'RU', ug:'CN', ckb:'IQ', ru:'RU', de:'DE', fr:'FR', es:'ES', pt:'PT', it:'IT', nl:'NL' };
-    var sel = document.getElementById('downCC');
     (function () {
       var loc = (document.documentElement.lang || 'en').toLowerCase().split('-')[0];
-      var iso = LOCALE_CC[loc]; if (!iso) return;
-      for (var i = 0; i < sel.options.length; i++) { if (sel.options[i].value.split('|')[0] === iso) { sel.selectedIndex = i; break; } }
+      var o = byIso[LOCALE_CC[loc]]; if (!o) return;
+      countryInp.value = o.label; syncDial();
     })();
     function openDown(withQuestion) {
       document.getElementById('downQ').style.display = withQuestion ? '' : 'none';
@@ -305,9 +340,9 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
     document.getElementById('downForm').addEventListener('submit', function (e) {
       e.preventDefault();
       var btn = document.getElementById('downBtn'), msg = document.getElementById('downMsg');
-      // Compose full E.164 from the chosen dial code + the national digits (drop a leading
+      // Compose full E.164 from the resolved dial code + the national digits (drop a leading
       // trunk 0, strip everything non-numeric), so the backend always gets a complete number.
-      var pick = (sel.value || '').split('|'), dial = pick[1] || '';
+      var o = resolve(); var dial = o ? o.dial : '';
       var national = (document.getElementById('downPhone').value || '').replace(/\D/g, '').replace(/^0+/, '');
       if (!dial || !national) {
         msg.classList.remove('hidden');
