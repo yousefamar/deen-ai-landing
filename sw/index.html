@@ -133,6 +133,14 @@
 
   <link rel="stylesheet" href="/tailwind.css">
   <link rel="stylesheet" href="/vendor/intl-tel-input/css/intlTelInput.min.css">
+  <style>
+    /* intl-tel-input wraps the input in .iti{display:inline-block}, which collapses the field to
+       content width. Force it to fill the dialog. */
+    #downDialog .iti { display: block; width: 100%; }
+    /* The country dropdown opens taller than the (content-sized) dialog card. A modal <dialog>
+       computes overflow:auto and would clip it, so allow the dropdown to overflow the card. */
+    #downDialog { overflow: visible; }
+  </style>
 
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Organization","name":"deen.ai","url":"https://deen.ai/","logo":"https://deen.ai/android-chrome-512x512.png","description":"Boti ya bure ya WhatsApp ya kujibu maswali kuhusu Uislamu, inayotegemea fatwa halisi 166,000+ zenye marejeo. ChatGPT yako binafsi ya Kiislamu."}
@@ -655,11 +663,7 @@
       initialCountry: LOCALE_CC[(document.documentElement.lang || 'en').toLowerCase().split('-')[0]] || 'gb',
       separateDialCode: true,
       countrySearch: true,
-      nationalMode: true,
-      // The form lives in a <dialog> opened with showModal() (top layer). Rendering the country
-      // list inline gets clipped by the dialog's bounded height. Attach it to the dialog element
-      // (NOT document.body, which sits behind the modal backdrop) so it floats above, unclipped.
-      dropdownContainer: dlg
+      nationalMode: true
     });
     function openDown(withQuestion) {
       document.getElementById('downQ').style.display = withQuestion ? '' : 'none';
