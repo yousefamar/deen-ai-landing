@@ -7,6 +7,7 @@ const locales = JSON.parse(readFileSync(new URL("./_data/locales.json", import.m
 const lines = [
   "index.html",
   "node_modules",
+  "vendor",
   "privacy",
   "og",
   "CLAUDE.md",
