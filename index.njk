@@ -224,11 +224,9 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
     if (!dlg || !openBtn || !form) return;
     openBtn.addEventListener('click', function () { dlg.showModal(); setTimeout(function () { text.focus(); }, 50); });
     closeBtn.addEventListener('click', function () { dlg.close(); });
-    // click on the backdrop (outside the dialog box) closes it
-    dlg.addEventListener('click', function (e) {
-      var r = dlg.getBoundingClientRect();
-      if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) dlg.close();
-    });
+    // Close on backdrop click: a modal <dialog> reports e.target === the dialog only for clicks
+    // on its ::backdrop; clicks on children (the form) target the child, so they don't close it.
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var q = (text.value || '').trim();
@@ -286,7 +284,11 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
       initialCountry: LOCALE_CC[(document.documentElement.lang || 'en').toLowerCase().split('-')[0]] || 'gb',
       separateDialCode: true,
       countrySearch: true,
-      nationalMode: true
+      nationalMode: true,
+      // The form lives in a <dialog> opened with showModal() (top layer). Rendering the country
+      // list inline gets clipped by the dialog's bounded height. Attach it to the dialog element
+      // (NOT document.body, which sits behind the modal backdrop) so it floats above, unclipped.
+      dropdownContainer: dlg
     });
     function openDown(withQuestion) {
       document.getElementById('downQ').style.display = withQuestion ? '' : 'none';
@@ -297,10 +299,10 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
     document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function (a) {
       a.addEventListener('click', function (e) { e.preventDefault(); openDown(false); });
     });
-    dlg.addEventListener('click', function (e) {
-      var r = dlg.getBoundingClientRect();
-      if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) dlg.close();
-    });
+    // Close on backdrop click. A modal <dialog> reports e.target === the dialog itself only for
+    // clicks on its ::backdrop; clicks on any child (form fields, and the floated country
+    // dropdown which we append INTO the dialog) target that child, so the picker works normally.
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
     document.getElementById('downForm').addEventListener('submit', function (e) {
       e.preventDefault();
       var btn = document.getElementById('downBtn'), msg = document.getElementById('downMsg');
