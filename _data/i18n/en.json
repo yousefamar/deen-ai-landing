@@ -24,7 +24,7 @@
   "jsonLdDescription": "A free WhatsApp bot for questions about Islam, grounded in 165,000+ real cited fatwas. Your personal Muslim ChatGPT.",
   "downBanner": "Our WhatsApp assistant is temporarily unavailable. Leave your number and we will message you the moment we are back, in shaa Allah.",
   "downTitle": "We'll message you when we're back",
-  "downCountry": "Country",
+  "downCountry": "Code",
   "downPhonePlaceholder": "Your WhatsApp number",
   "downQuestionPlaceholder": "Optional: your question",
   "downSubmit": "Notify me",

@@ -255,11 +255,11 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
     <h2 class="text-center text-lg font-semibold text-gray-900">{{ t.downTitle or i18n.en.downTitle }}</h2>
     <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">{{ t.downBanner or i18n.en.downBanner }}</p>
     <div class="mt-4 flex gap-2" dir="ltr">
-      <select id="downCC" required aria-label="Country code"
-        class="w-[7.5rem] shrink-0 rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-green-600 bg-white">
-        <option value="" disabled selected>{{ t.downCountry or i18n.en.downCountry or "Country" }}</option>
+      <select id="downCC" required aria-label="Country dialing code"
+        class="w-[6rem] shrink-0 rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-green-600 bg-white">
+        <option value="" disabled selected>{{ t.downCountry or i18n.en.downCountry or "Code" }}</option>
         {%- for c in dialcodes %}
-        <option value="{{ c.iso }}|{{ c.dial }}" data-dial="{{ c.dial }}">{{ c.flag }} {{ c.name }} (+{{ c.dial }})</option>
+        <option value="{{ c.iso }}|{{ c.dial }}" data-dial="{{ c.dial }}" title="{{ c.name }}">{{ c.flag }} +{{ c.dial }}</option>
         {%- endfor %}
       </select>
       <input id="downPhone" type="tel" inputmode="tel" required autocomplete="tel-national" placeholder="{{ t.downPhonePlaceholder or i18n.en.downPhonePlaceholder }}"
