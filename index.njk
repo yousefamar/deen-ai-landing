@@ -316,7 +316,7 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
           class="inline-flex items-center justify-center rounded-full bg-gradient-to-br from-green-600 to-emerald-500 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:shadow-lg">{{ t.downSubmit or i18n.en.downSubmit }}</button>
       </div>
       <p class="mt-3 text-center text-xs leading-5 text-gray-500">
-        {{ (t.downTelegramAlt or i18n.en.downTelegramAlt) | replace("{tgLink}", '<a href="https://t.me/DeenFatwaBot" target="_blank" rel="noopener" class="font-semibold text-sky-600 underline">' + (t.downTelegramAltLink or i18n.en.downTelegramAltLink) + '</a>') | safe }}
+        {{ (t.downTelegramAlt or i18n.en.downTelegramAlt) | replace("{tgLink}", '<button type="button" id="downToTg" class="font-semibold text-sky-600 underline">' + (t.downTelegramAltLink or i18n.en.downTelegramAltLink) + '</button>') | safe }}
       </p>
     </form>
   </div>
@@ -354,8 +354,11 @@ permalink: "{% if localeCode == 'en' %}index.html{% else %}{{ localeCode }}/inde
       showStep(stepChoose);
       dlg.showModal();
     }
-    document.getElementById('pickTelegram').addEventListener('click', function () { showStep(tgForm); setTimeout(function () { document.getElementById('tgQ').focus(); }, 50); });
+    function toTelegram() { showStep(tgForm); setTimeout(function () { document.getElementById('tgQ').focus(); }, 50); }
+    document.getElementById('pickTelegram').addEventListener('click', toTelegram);
     document.getElementById('pickWhatsApp').addEventListener('click', function () { showStep(downForm); setTimeout(function () { phoneInp.focus(); }, 50); });
+    // "Don't want to wait?" on the WhatsApp step switches to the Telegram question step.
+    document.getElementById('downToTg').addEventListener('click', toTelegram);
     // Telegram: turn the question into a prefilled t.me deep link and open the bot.
     tgForm.addEventListener('submit', function (e) {
       e.preventDefault();
