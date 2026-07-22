@@ -634,14 +634,25 @@
     </button>
 
     
-    <section id="downStepChoose">
-      <h2 class="text-center text-lg font-semibold text-gray-900">How would you like to reach me?</h2>
-      <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">I&#39;m temporarily unavailable on WhatsApp. Chat with me on Telegram now, or leave your WhatsApp number and I&#39;ll message you the moment I&#39;m back, in shaa Allah.</p>
+    <form id="askStep">
+      <h2 class="text-center text-lg font-semibold text-gray-900">Задать вопрос</h2>
+      <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">Наш ИИ опирается на более чем 166 000 реальных фетв. Если фетву нельзя процитировать, вам предложат обратиться к живому учёному. А Аллах знает лучше.</p>
+      <textarea id="askQ" rows="4" required maxlength="600" placeholder="напр. Можно ли совмещать намазы в пути?"
+        class="mt-4 block w-full resize-none rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 text-start"></textarea>
+      <div class="mt-5 flex justify-center">
+        <button type="submit" class="inline-flex items-center justify-center rounded-full bg-gradient-to-br from-green-600 to-emerald-500 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:shadow-lg">Спросить</button>
+      </div>
+    </form>
+
+    
+    <section id="chooseStep" class="hidden">
+      <h2 class="text-center text-lg font-semibold text-gray-900">Where should I answer?</h2>
+      <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">I&#39;m temporarily unavailable on WhatsApp. Ask me on Telegram now, or leave your WhatsApp number and I&#39;ll message you the moment I&#39;m back, in shaa Allah.</p>
       <div class="mt-5 space-y-3">
         <button type="button" id="pickTelegram" class="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-start ring-1 ring-inset ring-gray-200 transition hover:ring-sky-400 hover:bg-sky-50">
           <svg class="h-7 w-7 shrink-0 fill-[#229ED9]" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.696.064-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.209.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.061 3.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.242-1.865-.442-.751-.244-1.349-.374-1.297-.788.027-.216.324-.437.892-.663 3.498-1.524 5.831-2.529 6.998-3.015 3.333-1.386 4.025-1.627 4.477-1.635.099-.002.321.023.465.14.121.099.155.232.171.326.016.093.036.306.02.472z"/></svg>
           <span class="flex-1">
-            <span class="block text-sm font-semibold text-gray-900">Chat now on Telegram</span>
+            <span class="block text-sm font-semibold text-gray-900">Ask me on Telegram</span>
             <span class="block text-xs text-emerald-600">Available right now</span>
           </span>
           <svg class="h-4 w-4 shrink-0 text-gray-400 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7"/></svg>
@@ -658,19 +669,6 @@
     </section>
 
     
-    <form id="tgForm" class="hidden">
-      <h2 class="text-center text-lg font-semibold text-gray-900">Ask me on Telegram</h2>
-      <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">Type your question and I&#39;ll open it in my Telegram chat, grounded in 166,000+ real cited fatwas.</p>
-      <textarea id="tgQ" rows="3" required maxlength="500" placeholder="e.g. Can I combine prayers while travelling?"
-        class="mt-4 block w-full resize-none rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-500 text-start"></textarea>
-      <div class="mt-5 flex justify-center">
-        <button type="submit" class="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-br from-sky-500 to-sky-600 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:shadow-lg">
-          <svg class="h-4 w-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.696.064-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.209.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.061 3.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.242-1.865-.442-.751-.244-1.349-.374-1.297-.788.027-.216.324-.437.892-.663 3.498-1.524 5.831-2.529 6.998-3.015 3.333-1.386 4.025-1.627 4.477-1.635z"/></svg>
-          Open in Telegram</button>
-      </div>
-    </form>
-
-    
     <form id="downForm" class="hidden">
       <h2 class="text-center text-lg font-semibold text-gray-900">Мы напишем вам, когда вернёмся</h2>
       <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">Наш WhatsApp-помощник временно недоступен. Оставьте свой номер, и мы напишем вам, как только вернёмся, если пожелает Аллах.</p>
@@ -678,17 +676,13 @@
         <input id="downPhone" type="tel" required autocomplete="tel" placeholder="Ваш номер WhatsApp, напр. +44 7123 456789"
           class="block w-full rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600" dir="ltr">
       </div>
-      <textarea id="downQ" rows="2" maxlength="500" placeholder="Необязательно: ваш вопрос"
-        class="mt-3 block w-full resize-none rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 text-start"></textarea>
+      <input type="hidden" id="downQ">
       <input id="downHp" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
       <p id="downMsg" class="mt-2 hidden text-center text-sm"></p>
       <div class="mt-5 flex justify-center">
         <button type="submit" id="downBtn"
           class="inline-flex items-center justify-center rounded-full bg-gradient-to-br from-green-600 to-emerald-500 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:shadow-lg">Уведомить меня</button>
       </div>
-      <p class="mt-3 text-center text-xs leading-5 text-gray-500">
-        Don't want to wait? <button type="button" id="downToTg" class="font-semibold text-sky-600 underline">Ask me on Telegram</button> now.
-      </p>
     </form>
   </div>
 </dialog>
@@ -709,39 +703,35 @@
       countrySearch: true,
       nationalMode: true
     });
-    // Three panels share the dialog: a channel picker, the Telegram question form, and the
-    // WhatsApp notify form. Opening always resets to the picker.
-    var stepChoose = document.getElementById('downStepChoose');
-    var tgForm = document.getElementById('tgForm');
+    // Mirror the original flow: ASK FIRST (one question box, no channel signposting), then on
+    // submit split into "which channel?". Three panels share the dialog: ask -> choose -> WhatsApp
+    // notify form. Telegram is a deep link (opens the bot with the question prefilled).
+    var askStep = document.getElementById('askStep');
+    var chooseStep = document.getElementById('chooseStep');
     var downForm = document.getElementById('downForm');
+    var askQ = document.getElementById('askQ');
     function showStep(el) {
-      [stepChoose, tgForm, downForm].forEach(function (n) { n.classList.add('hidden'); });
+      [askStep, chooseStep, downForm].forEach(function (n) { n.classList.add('hidden'); });
       el.classList.remove('hidden');
     }
-    function openDown(withQuestion) {
-      // withQuestion (the Ask button) hides the WhatsApp form's optional-question box, matching
-      // the previous behaviour; the picker itself is shown either way.
-      document.getElementById('downQ').style.display = withQuestion ? '' : 'none';
-      showStep(stepChoose);
-      dlg.showModal();
-    }
-    function toTelegram() { showStep(tgForm); setTimeout(function () { document.getElementById('tgQ').focus(); }, 50); }
-    document.getElementById('pickTelegram').addEventListener('click', toTelegram);
-    document.getElementById('pickWhatsApp').addEventListener('click', function () { showStep(downForm); setTimeout(function () { phoneInp.focus(); }, 50); });
-    // "Don't want to wait?" on the WhatsApp step switches to the Telegram question step.
-    document.getElementById('downToTg').addEventListener('click', toTelegram);
-    // Telegram: turn the question into a prefilled t.me deep link and open the bot.
-    tgForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var q = (document.getElementById('tgQ').value || '').trim();
+    function openDown() { showStep(askStep); dlg.showModal(); setTimeout(function () { askQ.focus(); }, 50); }
+    // Step 1 -> 2: they typed a question, now pick a channel.
+    askStep.addEventListener('submit', function (e) { e.preventDefault(); showStep(chooseStep); });
+    // Telegram: open the bot with the question prefilled (same shape as the pre-downtime flow).
+    document.getElementById('pickTelegram').addEventListener('click', function () {
+      var q = (askQ.value || '').trim();
       window.open('https://t.me/DeenFatwaBot?text=' + encodeURIComponent(q), '_blank', 'noopener');
       dlg.close();
-      tgForm.reset();
+    });
+    // WhatsApp: carry the question into the hidden field, then collect a number to notify later.
+    document.getElementById('pickWhatsApp').addEventListener('click', function () {
+      document.getElementById('downQ').value = (askQ.value || '').trim();
+      showStep(downForm); setTimeout(function () { phoneInp.focus(); }, 50);
     });
     var ask = document.getElementById('askBtn');
-    if (ask) { var c = ask.cloneNode(true); ask.parentNode.replaceChild(c, ask); c.addEventListener('click', function (e) { e.preventDefault(); openDown(true); }); }
+    if (ask) { var c = ask.cloneNode(true); ask.parentNode.replaceChild(c, ask); c.addEventListener('click', function (e) { e.preventDefault(); openDown(); }); }
     document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function (a) {
-      a.addEventListener('click', function (e) { e.preventDefault(); openDown(false); });
+      a.addEventListener('click', function (e) { e.preventDefault(); openDown(); });
     });
     // Close on backdrop click. A modal <dialog> reports e.target === the dialog itself only for
     // clicks on its ::backdrop; clicks on any child (form fields, and the floated country
