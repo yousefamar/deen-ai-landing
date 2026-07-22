@@ -628,25 +628,69 @@
   });
 </script>
 <dialog id="downDialog" class="w-[92vw] max-w-md rounded-2xl border-0 p-0 shadow-xl backdrop:bg-gray-900/50" dir="ltr">
-  <form id="downForm" class="relative p-6 sm:p-7">
-    <button type="button" onclick="document.getElementById('downDialog').close()" aria-label="close" class="absolute right-4 top-4 rtl:right-auto rtl:left-4 text-gray-400 hover:text-gray-600">
+  <div class="relative p-6 sm:p-7">
+    <button type="button" onclick="document.getElementById('downDialog').close()" aria-label="close" class="absolute right-4 top-4 rtl:right-auto rtl:left-4 text-gray-400 hover:text-gray-600 z-10">
       <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg>
     </button>
-    <h2 class="text-center text-lg font-semibold text-gray-900">மீண்டும் வந்ததும் உங்களுக்கு செய்தி அனுப்புவோம்</h2>
-    <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">எங்கள் WhatsApp உதவியாளர் தற்காலிகமாக கிடைக்கவில்லை. உங்கள் எண்ணை விட்டுச் செல்லுங்கள், நாங்கள் மீண்டும் வந்தவுடன் உங்களுக்கு செய்தி அனுப்புவோம், இன்ஷா அல்லாஹ்.</p>
-    <div class="mt-4" dir="ltr">
-      <input id="downPhone" type="tel" required autocomplete="tel" placeholder="உங்கள் WhatsApp எண், எ.கா. +44 7123 456789"
-        class="block w-full rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600" dir="ltr">
-    </div>
-    <textarea id="downQ" rows="2" maxlength="500" placeholder="விருப்பத்தேர்வு: உங்கள் கேள்வி"
-      class="mt-3 block w-full resize-none rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 text-start"></textarea>
-    <input id="downHp" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-    <p id="downMsg" class="mt-2 hidden text-center text-sm"></p>
-    <div class="mt-5 flex justify-center">
-      <button type="submit" id="downBtn"
-        class="inline-flex items-center justify-center rounded-full bg-gradient-to-br from-green-600 to-emerald-500 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:shadow-lg">எனக்கு அறிவிக்கவும்</button>
-    </div>
-  </form>
+
+    
+    <section id="downStepChoose">
+      <h2 class="text-center text-lg font-semibold text-gray-900">How would you like to reach us?</h2>
+      <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">Our WhatsApp assistant is temporarily unavailable. Chat with us on Telegram now, or leave your WhatsApp number and we will message you the moment we are back, in shaa Allah.</p>
+      <div class="mt-5 space-y-3">
+        <button type="button" id="pickTelegram" class="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-start ring-1 ring-inset ring-gray-200 transition hover:ring-sky-400 hover:bg-sky-50">
+          <svg class="h-7 w-7 shrink-0 fill-[#229ED9]" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.696.064-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.209.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.061 3.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.242-1.865-.442-.751-.244-1.349-.374-1.297-.788.027-.216.324-.437.892-.663 3.498-1.524 5.831-2.529 6.998-3.015 3.333-1.386 4.025-1.627 4.477-1.635.099-.002.321.023.465.14.121.099.155.232.171.326.016.093.036.306.02.472z"/></svg>
+          <span class="flex-1">
+            <span class="block text-sm font-semibold text-gray-900">Chat now on Telegram</span>
+            <span class="block text-xs text-emerald-600">Available right now</span>
+          </span>
+          <svg class="h-4 w-4 shrink-0 text-gray-400 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7"/></svg>
+        </button>
+        <button type="button" id="pickWhatsApp" class="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-start ring-1 ring-inset ring-gray-200 transition hover:ring-green-400 hover:bg-green-50">
+          <svg class="h-7 w-7 shrink-0 fill-[#25D366]" viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+          <span class="flex-1">
+            <span class="block text-sm font-semibold text-gray-900">Notify me on WhatsApp</span>
+            <span class="block text-xs text-gray-500">We&#39;ll message you when we&#39;re back</span>
+          </span>
+          <svg class="h-4 w-4 shrink-0 text-gray-400 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7"/></svg>
+        </button>
+      </div>
+    </section>
+
+    
+    <form id="tgForm" class="hidden">
+      <h2 class="text-center text-lg font-semibold text-gray-900">Ask on Telegram</h2>
+      <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">Type your question and we will open it in our Telegram bot, grounded in 166,000+ real cited fatwas.</p>
+      <textarea id="tgQ" rows="3" required maxlength="500" placeholder="e.g. Can I combine prayers while travelling?"
+        class="mt-4 block w-full resize-none rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-500 text-start"></textarea>
+      <div class="mt-5 flex justify-center">
+        <button type="submit" class="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-br from-sky-500 to-sky-600 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:shadow-lg">
+          <svg class="h-4 w-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.696.064-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.209.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.061 3.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.242-1.865-.442-.751-.244-1.349-.374-1.297-.788.027-.216.324-.437.892-.663 3.498-1.524 5.831-2.529 6.998-3.015 3.333-1.386 4.025-1.627 4.477-1.635z"/></svg>
+          Open in Telegram</button>
+      </div>
+    </form>
+
+    
+    <form id="downForm" class="hidden">
+      <h2 class="text-center text-lg font-semibold text-gray-900">மீண்டும் வந்ததும் உங்களுக்கு செய்தி அனுப்புவோம்</h2>
+      <p class="mx-auto mt-2 max-w-sm text-center text-sm leading-6 text-gray-500">எங்கள் WhatsApp உதவியாளர் தற்காலிகமாக கிடைக்கவில்லை. உங்கள் எண்ணை விட்டுச் செல்லுங்கள், நாங்கள் மீண்டும் வந்தவுடன் உங்களுக்கு செய்தி அனுப்புவோம், இன்ஷா அல்லாஹ்.</p>
+      <div class="mt-4" dir="ltr">
+        <input id="downPhone" type="tel" required autocomplete="tel" placeholder="உங்கள் WhatsApp எண், எ.கா. +44 7123 456789"
+          class="block w-full rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600" dir="ltr">
+      </div>
+      <textarea id="downQ" rows="2" maxlength="500" placeholder="விருப்பத்தேர்வு: உங்கள் கேள்வி"
+        class="mt-3 block w-full resize-none rounded-md border-0 p-3 text-sm text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 text-start"></textarea>
+      <input id="downHp" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+      <p id="downMsg" class="mt-2 hidden text-center text-sm"></p>
+      <div class="mt-5 flex justify-center">
+        <button type="submit" id="downBtn"
+          class="inline-flex items-center justify-center rounded-full bg-gradient-to-br from-green-600 to-emerald-500 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:shadow-lg">எனக்கு அறிவிக்கவும்</button>
+      </div>
+      <p class="mt-3 text-center text-xs leading-5 text-gray-500">
+        Don't want to wait? <a href="https://t.me/DeenFatwaBot" target="_blank" rel="noopener" class="font-semibold text-sky-600 underline">Chat with us on Telegram</a> now.
+      </p>
+    </form>
+  </div>
 </dialog>
 <script src="/vendor/intl-tel-input/js/intlTelInputWithUtils.min.js"></script>
 <script>
@@ -665,10 +709,32 @@
       countrySearch: true,
       nationalMode: true
     });
+    // Three panels share the dialog: a channel picker, the Telegram question form, and the
+    // WhatsApp notify form. Opening always resets to the picker.
+    var stepChoose = document.getElementById('downStepChoose');
+    var tgForm = document.getElementById('tgForm');
+    var downForm = document.getElementById('downForm');
+    function showStep(el) {
+      [stepChoose, tgForm, downForm].forEach(function (n) { n.classList.add('hidden'); });
+      el.classList.remove('hidden');
+    }
     function openDown(withQuestion) {
+      // withQuestion (the Ask button) hides the WhatsApp form's optional-question box, matching
+      // the previous behaviour; the picker itself is shown either way.
       document.getElementById('downQ').style.display = withQuestion ? '' : 'none';
+      showStep(stepChoose);
       dlg.showModal();
     }
+    document.getElementById('pickTelegram').addEventListener('click', function () { showStep(tgForm); setTimeout(function () { document.getElementById('tgQ').focus(); }, 50); });
+    document.getElementById('pickWhatsApp').addEventListener('click', function () { showStep(downForm); setTimeout(function () { phoneInp.focus(); }, 50); });
+    // Telegram: turn the question into a prefilled t.me deep link and open the bot.
+    tgForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var q = (document.getElementById('tgQ').value || '').trim();
+      window.open('https://t.me/DeenFatwaBot?text=' + encodeURIComponent(q), '_blank', 'noopener');
+      dlg.close();
+      tgForm.reset();
+    });
     var ask = document.getElementById('askBtn');
     if (ask) { var c = ask.cloneNode(true); ask.parentNode.replaceChild(c, ask); c.addEventListener('click', function (e) { e.preventDefault(); openDown(true); }); }
     document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function (a) {
