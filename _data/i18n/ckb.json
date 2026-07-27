@@ -30,5 +30,12 @@
   "downQuestionPlaceholder": "ئارەزوومەندانە: پرسیارەکەت",
   "downSubmit": "ئاگادارم بکەرەوە",
   "downThanks": "گەیشت، جزاكم الله خيرا. هەر کە گەڕاینەوە نامەت بۆ دەنێرین.",
-  "downError": "هەڵەیەک ڕوویدا، تکایە دووبارە هەوڵ بدەرەوە."
+  "downError": "هەڵەیەک ڕوویدا، تکایە دووبارە هەوڵ بدەرەوە.",
+  "chooseTitle": "لە کوێ وەڵامت بدەمەوە؟",
+  "chooseSubtitle": "لە WhatsApp بۆ ماوەیەکی کاتی بەردەست نیم. ئێستا وەڵامەکەت لە Telegram وەربگرە، یان ژمارەی WhatsAppـەکەت جێبهێڵە و هەر کە گەڕامەوە نامەت بۆ دەنێرم، ان شاء الله.",
+  "chooseTelegram": "لە Telegram بەردەوام بە",
+  "chooseTelegramHint": "هەر ئێستا بەردەستە",
+  "chooseWhatsApp": "لە WhatsApp ئاگادارم بکەرەوە",
+  "chooseWhatsAppHint": "کە گەڕامەوە نامەت بۆ دەنێرم",
+  "downCountry": "کۆد"
 }

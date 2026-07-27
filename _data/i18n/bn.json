@@ -30,5 +30,12 @@
   "downQuestionPlaceholder": "ঐচ্ছিক: আপনার প্রশ্ন",
   "downSubmit": "আমাকে জানান",
   "downThanks": "পেয়েছি, জাযাকুমুল্লাহু খাইরান। ফিরে আসা মাত্রই আমরা আপনাকে মেসেজ করব।",
-  "downError": "কিছু একটা সমস্যা হয়েছে, অনুগ্রহ করে আবার চেষ্টা করুন।"
+  "downError": "কিছু একটা সমস্যা হয়েছে, অনুগ্রহ করে আবার চেষ্টা করুন।",
+  "chooseTitle": "কোথায় উত্তর দেব?",
+  "chooseSubtitle": "WhatsApp-এ আমি সাময়িকভাবে অনুপলব্ধ। এখনই Telegram-এ আপনার উত্তর নিন, অথবা আপনার WhatsApp নম্বর রেখে যান, ফিরে আসা মাত্রই আমি আপনাকে মেসেজ করব, ইনশাআল্লাহ।",
+  "chooseTelegram": "Telegram-এ চালিয়ে যান",
+  "chooseTelegramHint": "এখনই উপলব্ধ",
+  "chooseWhatsApp": "WhatsApp-এ আমাকে জানান",
+  "chooseWhatsAppHint": "ফিরে এলেই আপনাকে মেসেজ করব",
+  "downCountry": "কোড"
 }

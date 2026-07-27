@@ -30,5 +30,12 @@
   "downQuestionPlaceholder": "اختیاری: سؤال شما",
   "downSubmit": "به من خبر دهید",
   "downThanks": "دریافت شد، جزاکم الله خیرا. به محض بازگشت به شما پیام می‌دهیم.",
-  "downError": "مشکلی پیش آمد، لطفا دوباره تلاش کنید."
+  "downError": "مشکلی پیش آمد، لطفا دوباره تلاش کنید.",
+  "chooseTitle": "کجا پاسخ دهم؟",
+  "chooseSubtitle": "من موقتاً در WhatsApp در دسترس نیستم. همین حالا پاسخ خود را در Telegram بگیرید، یا شماره‌ی WhatsApp خود را بگذارید و به محض بازگشت به شما پیام می‌دهم، ان شاء الله.",
+  "chooseTelegram": "ادامه در Telegram",
+  "chooseTelegramHint": "همین حالا در دسترس",
+  "chooseWhatsApp": "در WhatsApp به من خبر دهید",
+  "chooseWhatsAppHint": "به محض بازگشت به شما پیام می‌دهم",
+  "downCountry": "کد"
 }
