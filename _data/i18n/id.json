@@ -24,18 +24,10 @@
   "askClose": "Tutup",
   "jsonLdName": "deen.ai · AI Islami yang menjawab pertanyaan Anda",
   "jsonLdDescription": "Bot WhatsApp gratis untuk pertanyaan tentang Islam, berlandaskan 167.000+ fatwa nyata yang dikutip. ChatGPT Muslim pribadi Anda.",
-  "downBanner": "Asisten WhatsApp kami sedang tidak tersedia untuk sementara. Tinggalkan nomor Anda dan kami akan mengirim pesan begitu kami kembali, insya Allah.",
-  "downTitle": "Kami akan mengirim pesan saat kami kembali",
-  "downPhonePlaceholder": "Nomor WhatsApp Anda, mis. +44 7123 456789",
   "downQuestionPlaceholder": "Opsional: pertanyaan Anda",
-  "downSubmit": "Beri tahu saya",
-  "downThanks": "Diterima, jazakumullahu khairan. Kami akan mengirim pesan begitu kami kembali.",
-  "downError": "Terjadi kesalahan, silakan coba lagi.",
   "chooseTitle": "Di mana saya harus menjawab?",
-  "chooseSubtitle": "Saya sedang tidak tersedia di WhatsApp untuk sementara. Dapatkan jawaban Anda di Telegram sekarang, atau tinggalkan nomor WhatsApp Anda dan saya akan mengirim pesan begitu saya kembali, insya Allah.",
+  "chooseSubtitle": "Telegram disarankan, karena WhatsApp sering terputus akibat pemblokiran AI.",
   "chooseTelegram": "Lanjutkan di Telegram",
-  "chooseTelegramHint": "Tersedia sekarang",
-  "chooseWhatsApp": "Beri tahu saya di WhatsApp",
-  "chooseWhatsAppHint": "Saya akan mengirim pesan saat kembali",
-  "downCountry": "Kode"
+  "chooseWhatsApp": "Lanjutkan di WhatsApp",
+  "chooseRecommended": "Disarankan"
 }

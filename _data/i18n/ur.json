@@ -24,18 +24,10 @@
   "askClose": "بند کریں",
   "jsonLdName": "deen.ai · آپ کے سوالوں کا جواب دینے والی اسلامی اے آئی",
   "jsonLdDescription": "اسلام کے بارے میں سوالوں کے لیے ایک مفت WhatsApp بوٹ، جو 167,000+ حقیقی اور باحوالہ فتاویٰ پر مبنی ہے۔ آپ کا اپنا مسلم ChatGPT۔",
-  "downBanner": "ہمارا WhatsApp اسسٹنٹ عارضی طور پر دستیاب نہیں ہے۔ اپنا نمبر چھوڑ جائیں، ہم واپس آتے ہی آپ کو میسج کریں گے، ان شاء اللہ۔",
-  "downTitle": "واپس آتے ہی ہم آپ کو میسج کریں گے",
-  "downPhonePlaceholder": "آپ کا WhatsApp نمبر، مثلاً +44 7123 456789",
   "downQuestionPlaceholder": "اختیاری: آپ کا سوال",
-  "downSubmit": "مجھے اطلاع دیں",
-  "downThanks": "موصول ہو گیا، جزاکم اللہ خیرا۔ واپس آتے ہی ہم آپ کو میسج کریں گے۔",
-  "downError": "کچھ گڑبڑ ہو گئی، براہ کرم دوبارہ کوشش کریں۔",
   "chooseTitle": "میں کہاں جواب دوں؟",
-  "chooseSubtitle": "میں WhatsApp پر عارضی طور پر دستیاب نہیں ہوں۔ اپنا جواب ابھی Telegram پر حاصل کریں، یا اپنا WhatsApp نمبر چھوڑ جائیں، واپس آتے ہی میں آپ کو میسج کروں گا، ان شاء اللہ۔",
+  "chooseSubtitle": "Telegram تجویز کیا جاتا ہے، کیونکہ WhatsApp اکثر AI پر پابندیوں کی وجہ سے بند ہو جاتا ہے۔",
   "chooseTelegram": "Telegram پر جاری رکھیں",
-  "chooseTelegramHint": "ابھی دستیاب",
-  "chooseWhatsApp": "WhatsApp پر مجھے اطلاع دیں",
-  "chooseWhatsAppHint": "واپس آتے ہی میں آپ کو میسج کروں گا",
-  "downCountry": "کوڈ"
+  "chooseWhatsApp": "WhatsApp پر جاری رکھیں",
+  "chooseRecommended": "تجویز کردہ"
 }

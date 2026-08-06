@@ -24,18 +24,10 @@
   "jsonLdDescription": "Бесплатный WhatsApp-бот для вопросов об исламе, опирающийся на 167 000+ реальных цитируемых фетв. Ваш личный мусульманский ChatGPT.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "Наш WhatsApp-помощник временно недоступен. Оставьте свой номер, и мы напишем вам, как только вернёмся, если пожелает Аллах.",
-  "downTitle": "Мы напишем вам, когда вернёмся",
-  "downPhonePlaceholder": "Ваш номер WhatsApp, напр. +44 7123 456789",
   "downQuestionPlaceholder": "Необязательно: ваш вопрос",
-  "downSubmit": "Уведомить меня",
-  "downThanks": "Получено, да воздаст вам Аллах благом. Мы напишем вам, как только вернёмся.",
-  "downError": "Что-то пошло не так, попробуйте ещё раз.",
   "chooseTitle": "Где мне ответить?",
-  "chooseSubtitle": "Я временно недоступен в WhatsApp. Получите ответ в Telegram прямо сейчас или оставьте свой номер WhatsApp, и я напишу вам, как только вернусь, если пожелает Аллах.",
+  "chooseSubtitle": "Рекомендуем Telegram: WhatsApp часто перестаёт работать из-за банов ИИ.",
   "chooseTelegram": "Продолжить в Telegram",
-  "chooseTelegramHint": "Доступно прямо сейчас",
-  "chooseWhatsApp": "Уведомить меня в WhatsApp",
-  "chooseWhatsAppHint": "Я напишу вам, когда вернусь",
-  "downCountry": "Код"
+  "chooseWhatsApp": "Продолжить в WhatsApp",
+  "chooseRecommended": "Рекомендуется"
 }

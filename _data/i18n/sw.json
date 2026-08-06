@@ -24,18 +24,10 @@
   "jsonLdDescription": "Boti ya bure ya WhatsApp ya kujibu maswali kuhusu Uislamu, inayotegemea fatwa halisi 167,000+ zenye marejeo. ChatGPT yako binafsi ya Kiislamu.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "Msaidizi wetu wa WhatsApp haupatikani kwa muda. Acha namba yako, tutakutumia ujumbe mara tu tutakaporejea, insha Allah.",
-  "downTitle": "Tutakutumia ujumbe tutakaporejea",
-  "downPhonePlaceholder": "Namba yako ya WhatsApp, mfano +44 7123 456789",
   "downQuestionPlaceholder": "Si lazima: swali lako",
-  "downSubmit": "Nijulishe",
-  "downThanks": "Imepokelewa, jazakumullahu khayran. Tutakutumia ujumbe mara tu tutakaporejea.",
-  "downError": "Hitilafu imetokea, tafadhali jaribu tena.",
   "chooseTitle": "Nikujibu wapi?",
-  "chooseSubtitle": "Sipatikani kwa muda kwenye WhatsApp. Pata jibu lako sasa kwenye Telegram, au acha namba yako ya WhatsApp na nitakutumia ujumbe mara tu nitakaporejea, insha Allah.",
+  "chooseSubtitle": "Tunapendekeza Telegram, kwa sababu WhatsApp mara nyingi hukatizwa kutokana na marufuku ya AI.",
   "chooseTelegram": "Endelea kwenye Telegram",
-  "chooseTelegramHint": "Inapatikana sasa hivi",
-  "chooseWhatsApp": "Nijulishe kwenye WhatsApp",
-  "chooseWhatsAppHint": "Nitakutumia ujumbe nitakaporejea",
-  "downCountry": "Msimbo"
+  "chooseWhatsApp": "Endelea kwenye WhatsApp",
+  "chooseRecommended": "Inapendekezwa"
 }

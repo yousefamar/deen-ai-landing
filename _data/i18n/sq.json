@@ -24,18 +24,10 @@
   "jsonLdDescription": "Një bot falas në WhatsApp për pyetje rreth Islamit, i bazuar në 167.000+ fetva reale të cituara. ChatGPT-ja juaj personale myslimane.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "Asistenti ynë në WhatsApp është përkohësisht i padisponueshëm. Lëre numrin tënd dhe do të të shkruajmë sapo të rikthehemi, në dashtë Allahu.",
-  "downTitle": "Do të të shkruajmë sapo të rikthehemi",
-  "downPhonePlaceholder": "Numri yt i WhatsApp, p.sh. +44 7123 456789",
   "downQuestionPlaceholder": "Opsionale: pyetja jote",
-  "downSubmit": "Më njofto",
-  "downThanks": "U pranua, Allahu të shpërbleftë. Do të të shkruajmë sapo të rikthehemi.",
-  "downError": "Diçka shkoi keq, të lutem provo sërish.",
   "chooseTitle": "Ku duhet të përgjigjem?",
-  "chooseSubtitle": "Jam përkohësisht i padisponueshëm në WhatsApp. Merre përgjigjen tënde tani në Telegram, ose lëre numrin tënd të WhatsApp dhe do të të shkruaj sapo të rikthehem, në dashtë Allahu.",
+  "chooseSubtitle": "Rekomandohet Telegram, sepse WhatsApp ndërpritet shpesh për shkak të ndalimeve ndaj AI-së.",
   "chooseTelegram": "Vazhdo në Telegram",
-  "chooseTelegramHint": "I disponueshëm tani",
-  "chooseWhatsApp": "Njoftomë në WhatsApp",
-  "chooseWhatsAppHint": "Do të të shkruaj kur të rikthehem",
-  "downCountry": "Kodi"
+  "chooseWhatsApp": "Vazhdo në WhatsApp",
+  "chooseRecommended": "E rekomanduar"
 }

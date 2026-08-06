@@ -24,18 +24,10 @@
   "jsonLdDescription": "Ein kostenloser WhatsApp-Bot für Fragen zum Islam, gestützt auf 167.000+ echte zitierte Fatwas. Dein persönliches muslimisches ChatGPT.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "Unser WhatsApp-Assistent ist vorübergehend nicht erreichbar. Hinterlasse deine Nummer und wir schreiben dir, sobald wir zurück sind, so Allah will.",
-  "downTitle": "Wir schreiben dir, sobald wir zurück sind",
-  "downPhonePlaceholder": "Deine WhatsApp-Nummer, z. B. +44 7123 456789",
   "downQuestionPlaceholder": "Optional: deine Frage",
-  "downSubmit": "Benachrichtige mich",
-  "downThanks": "Erhalten, möge Allah dich mit Gutem belohnen. Wir schreiben dir, sobald wir zurück sind.",
-  "downError": "Etwas ist schiefgelaufen, bitte versuche es erneut.",
   "chooseTitle": "Wo soll ich antworten?",
-  "chooseSubtitle": "Ich bin vorübergehend auf WhatsApp nicht erreichbar. Erhalte deine Antwort jetzt auf Telegram, oder hinterlasse deine WhatsApp-Nummer und ich schreibe dir, sobald ich zurück bin, so Allah will.",
+  "chooseSubtitle": "Telegram wird empfohlen, da WhatsApp wegen KI-Sperren oft unterbrochen ist.",
   "chooseTelegram": "Auf Telegram fortfahren",
-  "chooseTelegramHint": "Jetzt verfügbar",
-  "chooseWhatsApp": "Benachrichtige mich auf WhatsApp",
-  "chooseWhatsAppHint": "Ich schreibe dir, sobald ich zurück bin",
-  "downCountry": "Vorwahl"
+  "chooseWhatsApp": "Auf WhatsApp fortfahren",
+  "chooseRecommended": "Empfohlen"
 }

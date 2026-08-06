@@ -24,18 +24,10 @@
   "jsonLdDescription": "Bot kyauta na WhatsApp don tambayoyi game da Musulunci, wanda ya dogara a kan fatawowi na haƙiƙa 167,000+ da aka yi nuni da su. ChatGPT naka na Musulmi.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "Mataimakinmu na WhatsApp ba ya aiki na ɗan lokaci. Bar lambarka, za mu aiko maka saƙo da zarar mun dawo, in sha Allahu.",
-  "downTitle": "Za mu aiko maka saƙo idan mun dawo",
-  "downPhonePlaceholder": "Lambar WhatsApp ɗinka, misali +44 7123 456789",
   "downQuestionPlaceholder": "Na zaɓi: tambayarka",
-  "downSubmit": "A sanar da ni",
-  "downThanks": "An karɓa, Allah ya saka da alheri. Za mu aiko maka saƙo da zarar mun dawo.",
-  "downError": "An samu matsala, don Allah a sake gwadawa.",
   "chooseTitle": "A ina zan amsa?",
-  "chooseSubtitle": "Ni ba na aiki na ɗan lokaci a WhatsApp. Ka samu amsarka a Telegram yanzu, ko ka bar lambar WhatsApp ɗinka, zan aiko maka saƙo da zarar na dawo, in sha Allahu.",
+  "chooseSubtitle": "Ana ba da shawarar Telegram, domin WhatsApp yakan yanke saboda haramcin AI.",
   "chooseTelegram": "Ci gaba a Telegram",
-  "chooseTelegramHint": "Yana samuwa yanzu",
-  "chooseWhatsApp": "A sanar da ni a WhatsApp",
-  "chooseWhatsAppHint": "Zan aiko maka saƙo idan na dawo",
-  "downCountry": "Lambar ƙasa"
+  "chooseWhatsApp": "Ci gaba a WhatsApp",
+  "chooseRecommended": "An ba da shawara"
 }

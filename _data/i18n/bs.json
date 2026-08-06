@@ -24,18 +24,10 @@
   "jsonLdDescription": "Besplatan WhatsApp bot za pitanja o islamu, zasnovan na 167.000+ stvarnih fetvi s navedenim izvorima. Vaš lični muslimanski ChatGPT.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "Naš WhatsApp asistent trenutno nije dostupan. Ostavite svoj broj i javit ćemo vam se čim se vratimo, inšallah.",
-  "downTitle": "Javit ćemo vam se čim se vratimo",
-  "downPhonePlaceholder": "Vaš WhatsApp broj, npr. +44 7123 456789",
   "downQuestionPlaceholder": "Neobavezno: vaše pitanje",
-  "downSubmit": "Obavijesti me",
-  "downThanks": "Primljeno, džazakumullahu hajren. Javit ćemo vam se čim se vratimo.",
-  "downError": "Nešto je pošlo po zlu, molimo pokušajte ponovo.",
   "chooseTitle": "Gdje da vam odgovorim?",
-  "chooseSubtitle": "Trenutno nisam dostupan na WhatsApp. Odgovor dobijte odmah na Telegram, ili ostavite svoj WhatsApp broj i javit ću vam se čim se vratim, inšallah.",
+  "chooseSubtitle": "Preporučujemo Telegram, jer WhatsApp često prestaje raditi zbog zabrana AI-ja.",
   "chooseTelegram": "Nastavi na Telegram",
-  "chooseTelegramHint": "Dostupno odmah",
-  "chooseWhatsApp": "Obavijesti me na WhatsApp",
-  "chooseWhatsAppHint": "Javit ću vam se čim se vratim",
-  "downCountry": "Kod"
+  "chooseWhatsApp": "Nastavi na WhatsApp",
+  "chooseRecommended": "Preporučeno"
 }

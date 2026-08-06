@@ -22,18 +22,10 @@
   "askClose": "Close",
   "jsonLdName": "deen.ai · Islamic AI answering your questions",
   "jsonLdDescription": "A free WhatsApp bot for questions about Islam, grounded in 167,000+ real cited fatwas. Your personal Muslim ChatGPT.",
-  "downBanner": "I'm temporarily unavailable on WhatsApp. Leave your number and I'll message you the moment I'm back, in shaa Allah.",
-  "downTitle": "I'll message you when I'm back",
-  "downCountry": "Code",
-  "downPhonePlaceholder": "Your WhatsApp number",
   "downQuestionPlaceholder": "Optional: your question",
-  "downSubmit": "Notify me",
-  "downThanks": "Received, jazakum Allahu khayran. I'll message you the moment I'm back.",
-  "downError": "Something went wrong, please try again.",
   "chooseTitle": "Where should I answer?",
-  "chooseSubtitle": "I'm temporarily unavailable on WhatsApp. Get your answer on Telegram now, or leave your WhatsApp number and I'll message you the moment I'm back, in shaa Allah.",
+  "chooseSubtitle": "Telegram is recommended, as WhatsApp is often interrupted due to bans on AI.",
   "chooseTelegram": "Continue on Telegram",
-  "chooseTelegramHint": "Available right now",
-  "chooseWhatsApp": "Notify me on WhatsApp",
-  "chooseWhatsAppHint": "I'll message you when I'm back"
+  "chooseWhatsApp": "Continue on WhatsApp",
+  "chooseRecommended": "Recommended"
 }

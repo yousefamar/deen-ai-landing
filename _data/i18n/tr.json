@@ -24,18 +24,10 @@
   "jsonLdDescription": "İslam hakkındaki sorularınız için ücretsiz bir WhatsApp botu, 167.000+ gerçek ve kaynak gösterilen fetvaya dayanır. Kişisel Müslüman ChatGPT'niz.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "WhatsApp asistanımız geçici olarak hizmet dışı. Numaranızı bırakın, geri döner dönmez size yazarız inşallah.",
-  "downTitle": "Geri döndüğümüzde size yazacağız",
-  "downPhonePlaceholder": "WhatsApp numaranız, örn. +44 7123 456789",
   "downQuestionPlaceholder": "İsteğe bağlı: sorunuz",
-  "downSubmit": "Bana haber ver",
-  "downThanks": "Alındı, Allah razı olsun. Geri döner dönmez size yazacağız.",
-  "downError": "Bir şeyler ters gitti, lütfen tekrar deneyin.",
   "chooseTitle": "Nerede cevap vereyim?",
-  "chooseSubtitle": "WhatsApp'ta geçici olarak müsait değilim. Cevabınızı hemen Telegram'da alın ya da WhatsApp numaranızı bırakın, geri döner dönmez size yazacağım inşallah.",
+  "chooseSubtitle": "Telegram önerilir, çünkü WhatsApp yapay zekâ yasakları nedeniyle sık sık kesintiye uğruyor.",
   "chooseTelegram": "Telegram'da devam et",
-  "chooseTelegramHint": "Şu anda müsait",
-  "chooseWhatsApp": "WhatsApp'ta bana haber ver",
-  "chooseWhatsAppHint": "Döndüğümde size yazacağım",
-  "downCountry": "Kod"
+  "chooseWhatsApp": "WhatsApp'da devam et",
+  "chooseRecommended": "Önerilen"
 }

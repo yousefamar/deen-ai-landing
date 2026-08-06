@@ -24,18 +24,10 @@
   "jsonLdDescription": "WhatsApp өчен бушлай бот, ул ислам турындагы сорауларга чыганагы күрсәтелгән 167 000+ чын фәтвага нигезләнеп җавап бирә. Сезнең шәхси мөселман ChatGPT.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "WhatsApp ярдәмчебез вакытлыча эшләми. Номерыгызны калдырыгыз, кире кайтуга ук сезгә язарбыз, Аллаһ боерса.",
-  "downTitle": "Кире кайткач сезгә язарбыз",
-  "downPhonePlaceholder": "WhatsApp номерыгыз, мәсәлән +44 7123 456789",
   "downQuestionPlaceholder": "Мәҗбүри түгел: соравыгыз",
-  "downSubmit": "Миңа хәбәр итегез",
-  "downThanks": "Кабул ителде, Аллаһ разый булсын. Кире кайтуга ук сезгә язарбыз.",
-  "downError": "Нидер дөрес булмады, зинһар, тагын бер кат тырышып карагыз.",
   "chooseTitle": "Кайда җавап бирим?",
-  "chooseSubtitle": "WhatsApp'та вакытлыча юк. Җавабыгызны хәзер үк Telegram'да алыгыз яки WhatsApp номерыгызны калдырыгыз, кире кайтуга ук сезгә язармын, Аллаһ боерса.",
+  "chooseSubtitle": "Telegram тәкъдим ителә, чөнки WhatsApp AI тыюлары аркасында еш туктый.",
   "chooseTelegram": "Telegram'да дәвам итү",
-  "chooseTelegramHint": "Хәзер үк мөмкин",
-  "chooseWhatsApp": "WhatsApp'та миңа хәбәр итегез",
-  "chooseWhatsAppHint": "Кире кайткач сезгә язармын",
-  "downCountry": "Код"
+  "chooseWhatsApp": "WhatsApp'да дәвам итү",
+  "chooseRecommended": "Тәкъдим ителә"
 }

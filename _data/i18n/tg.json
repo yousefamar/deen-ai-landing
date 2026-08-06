@@ -24,18 +24,10 @@
   "jsonLdDescription": "Боти ройгони WhatsApp барои саволҳо дар бораи ислом, ки ба 167 000+ фатвои воқеии истинодшуда асос ёфтааст. ChatGPT-и шахсии мусулмонии шумо.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "Ёрдамчии WhatsApp-и мо муваққатан дастрас нест. Рақами худро гузоред ва мо ҳамин ки баргаштем, ба шумо паём мефиристем, иншоаллоҳ.",
-  "downTitle": "Вақте ки баргаштем, ба шумо паём мефиристем",
-  "downPhonePlaceholder": "Рақами WhatsApp-и шумо, масалан +44 7123 456789",
   "downQuestionPlaceholder": "Ихтиёрӣ: саволи шумо",
-  "downSubmit": "Ба ман хабар диҳед",
-  "downThanks": "Қабул шуд, ҷазокумуллоҳу хайран. Ҳамин ки баргаштем, ба шумо паём мефиристем.",
-  "downError": "Хатогие рух дод, лутфан бори дигар кӯшиш кунед.",
   "chooseTitle": "Ман дар куҷо ҷавоб диҳам?",
-  "chooseSubtitle": "Ман дар WhatsApp муваққатан дастрас нестам. Ҳозир дар Telegram ҷавоби худро гиред, ё рақами WhatsApp-и худро гузоред ва ман ҳамин ки баргаштам, ба шумо паём мефиристам, иншоаллоҳ.",
+  "chooseSubtitle": "Telegram тавсия мешавад, зеро WhatsApp аз сабаби манъи AI зуд-зуд қатъ мешавад.",
   "chooseTelegram": "Дар Telegram давом диҳед",
-  "chooseTelegramHint": "Ҳозир дастрас аст",
-  "chooseWhatsApp": "Дар WhatsApp ба ман хабар диҳед",
-  "chooseWhatsAppHint": "Ҳамин ки баргаштам, ба шумо паём мефиристам",
-  "downCountry": "Рамз"
+  "chooseWhatsApp": "Дар WhatsApp давом диҳед",
+  "chooseRecommended": "Тавсияшуда"
 }

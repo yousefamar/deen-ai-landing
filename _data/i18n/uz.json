@@ -24,18 +24,10 @@
   "jsonLdDescription": "Islom haqidagi savollar uchun bepul WhatsApp boti, manbasi keltirilgan 167 000+ haqiqiy fatvoga asoslangan. Sizning shaxsiy musulmon ChatGPTʼingiz.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "WhatsApp yordamchimiz vaqtincha ishlamayapti. Raqamingizni qoldiring, qaytishimiz bilanoq sizga xabar yozamiz, inshaAlloh.",
-  "downTitle": "Qaytganimizda sizga xabar yozamiz",
-  "downPhonePlaceholder": "WhatsApp raqamingiz, masalan +44 7123 456789",
   "downQuestionPlaceholder": "Ixtiyoriy: savolingiz",
-  "downSubmit": "Menga xabar bering",
-  "downThanks": "Qabul qilindi, Alloh rozi boʻlsin. Qaytishimiz bilanoq sizga xabar yozamiz.",
-  "downError": "Nimadir xato ketdi, iltimos, qayta urinib koʻring.",
   "chooseTitle": "Qayerda javob beray?",
-  "chooseSubtitle": "WhatsApp'da vaqtincha mavjud emasman. Javobingizni hoziroq Telegram'da oling yoki WhatsApp raqamingizni qoldiring, qaytishim bilanoq sizga xabar yozaman, inshaAlloh.",
+  "chooseSubtitle": "Telegram tavsiya etiladi, chunki WhatsApp AI taqiqlari sababli tez-tez to'xtab qoladi.",
   "chooseTelegram": "Telegram'da davom etish",
-  "chooseTelegramHint": "Hozir mavjud",
-  "chooseWhatsApp": "WhatsApp'da menga xabar bering",
-  "chooseWhatsAppHint": "Qaytganimda sizga xabar yozaman",
-  "downCountry": "Kod"
+  "chooseWhatsApp": "WhatsApp'da davom etish",
+  "chooseRecommended": "Tavsiya etiladi"
 }

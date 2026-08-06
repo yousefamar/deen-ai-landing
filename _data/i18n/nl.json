@@ -24,18 +24,10 @@
   "jsonLdDescription": "Een gratis WhatsApp-bot voor vragen over de islam, gebaseerd op 167.000+ echte fatwa's met bronvermelding. Jouw persoonlijke moslim-ChatGPT.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "Onze WhatsApp-assistent is tijdelijk niet beschikbaar. Laat je nummer achter en we sturen je een bericht zodra we terug zijn, in shaa Allah.",
-  "downTitle": "We sturen je een bericht zodra we terug zijn",
-  "downPhonePlaceholder": "Je WhatsApp-nummer, bijv. +44 7123 456789",
   "downQuestionPlaceholder": "Optioneel: je vraag",
-  "downSubmit": "Houd me op de hoogte",
-  "downThanks": "Ontvangen, moge Allah je belonen. We sturen je een bericht zodra we terug zijn.",
-  "downError": "Er is iets misgegaan, probeer het opnieuw.",
   "chooseTitle": "Waar zal ik antwoorden?",
-  "chooseSubtitle": "Ik ben tijdelijk niet beschikbaar op WhatsApp. Krijg nu je antwoord op Telegram, of laat je WhatsApp-nummer achter en ik stuur je een bericht zodra ik terug ben, in shaa Allah.",
+  "chooseSubtitle": "Telegram wordt aanbevolen, omdat WhatsApp vaak wordt onderbroken door AI-verboden.",
   "chooseTelegram": "Ga verder op Telegram",
-  "chooseTelegramHint": "Nu beschikbaar",
-  "chooseWhatsApp": "Waarschuw me op WhatsApp",
-  "chooseWhatsAppHint": "Ik bericht je zodra ik terug ben",
-  "downCountry": "Code"
+  "chooseWhatsApp": "Ga verder op WhatsApp",
+  "chooseRecommended": "Aanbevolen"
 }

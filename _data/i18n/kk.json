@@ -24,18 +24,10 @@
   "jsonLdDescription": "Ислам туралы сұрақтарға жауап беретін тегін WhatsApp боты, дереккөзі көрсетілген 167 000+ нақты пәтуаға негізделген. Сіздің жеке мұсылман ChatGPT-іңіз.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "WhatsApp көмекшіміз уақытша қолжетімсіз. Нөміріңізді қалдырыңыз, қайта оралған бойда сізге хабарлама жібереміз, Аллаһ қаласа.",
-  "downTitle": "Қайта оралғанда сізге хабарлама жібереміз",
-  "downPhonePlaceholder": "WhatsApp нөміріңіз, мысалы +44 7123 456789",
   "downQuestionPlaceholder": "Міндетті емес: сұрағыңыз",
-  "downSubmit": "Маған хабарлаңыз",
-  "downThanks": "Қабылданды, Аллаһ разы болсын. Қайта оралған бойда сізге хабарлама жібереміз.",
-  "downError": "Бірдеңе дұрыс болмады, қайталап көріңіз.",
   "chooseTitle": "Қайда жауап берейін?",
-  "chooseSubtitle": "WhatsApp-та уақытша қолжетімсізбін. Жауабыңызды қазір Telegram-нан алыңыз немесе WhatsApp нөміріңізді қалдырыңыз, қайта оралған бойда сізге хабарлама жіберемін, Аллаһ қаласа.",
+  "chooseSubtitle": "Telegram ұсынылады, себебі WhatsApp ЖИ-ге тыйым салынуына байланысты жиі тоқтап қалады.",
   "chooseTelegram": "Telegram-да жалғастыру",
-  "chooseTelegramHint": "Қазір қолжетімді",
-  "chooseWhatsApp": "WhatsApp арқылы хабарлаңыз",
-  "chooseWhatsAppHint": "Оралғанда сізге хабарлама жіберемін",
-  "downCountry": "Код"
+  "chooseWhatsApp": "WhatsApp-да жалғастыру",
+  "chooseRecommended": "Ұсынылады"
 }

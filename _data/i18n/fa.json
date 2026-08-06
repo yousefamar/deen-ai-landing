@@ -24,18 +24,10 @@
   "jsonLdDescription": "یک ربات رایگان WhatsApp برای پرسش‌های مربوط به اسلام، بر پایه‌ی بیش از ۱۶۵٬۰۰۰ فتوای واقعی و قابل استناد. ChatGPT شخصی مسلمان شما.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "دستیار WhatsApp ما به طور موقت در دسترس نیست. شماره‌ی خود را بگذارید و به محض بازگشت به شما پیام می‌دهیم، ان شاء الله.",
-  "downTitle": "به محض بازگشت به شما پیام می‌دهیم",
-  "downPhonePlaceholder": "شماره WhatsApp شما، مثلا +44 7123 456789",
   "downQuestionPlaceholder": "اختیاری: سؤال شما",
-  "downSubmit": "به من خبر دهید",
-  "downThanks": "دریافت شد، جزاکم الله خیرا. به محض بازگشت به شما پیام می‌دهیم.",
-  "downError": "مشکلی پیش آمد، لطفا دوباره تلاش کنید.",
   "chooseTitle": "کجا پاسخ دهم؟",
-  "chooseSubtitle": "من موقتاً در WhatsApp در دسترس نیستم. همین حالا پاسخ خود را در Telegram بگیرید، یا شماره‌ی WhatsApp خود را بگذارید و به محض بازگشت به شما پیام می‌دهم، ان شاء الله.",
+  "chooseSubtitle": "Telegram توصیه می‌شود، چون WhatsApp اغلب به دلیل مسدودسازی هوش مصنوعی قطع می‌شود.",
   "chooseTelegram": "ادامه در Telegram",
-  "chooseTelegramHint": "همین حالا در دسترس",
-  "chooseWhatsApp": "در WhatsApp به من خبر دهید",
-  "chooseWhatsAppHint": "به محض بازگشت به شما پیام می‌دهم",
-  "downCountry": "کد"
+  "chooseWhatsApp": "ادامه در WhatsApp",
+  "chooseRecommended": "پیشنهادی"
 }

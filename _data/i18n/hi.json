@@ -24,18 +24,10 @@
   "jsonLdDescription": "इस्लाम के बारे में सवालों के लिए एक मुफ़्त WhatsApp बॉट, जो 167,000+ असली, हवाला दिए गए फ़तवों पर आधारित है। आपका अपना मुस्लिम ChatGPT।",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "हमारा WhatsApp असिस्टेंट कुछ समय के लिए उपलब्ध नहीं है। अपना नंबर छोड़ दें, हम वापस आते ही आपको मैसेज करेंगे, इन शा अल्लाह।",
-  "downTitle": "वापस आते ही हम आपको मैसेज करेंगे",
-  "downPhonePlaceholder": "आपका WhatsApp नंबर, जैसे +44 7123 456789",
   "downQuestionPlaceholder": "वैकल्पिक: आपका सवाल",
-  "downSubmit": "मुझे सूचित करें",
-  "downThanks": "मिल गया, जज़ाकुमुल्लाहु ख़ैरन। वापस आते ही हम आपको मैसेज करेंगे।",
-  "downError": "कुछ गड़बड़ हो गई, कृपया दोबारा कोशिश करें।",
   "chooseTitle": "मैं कहाँ जवाब दूँ?",
-  "chooseSubtitle": "मैं WhatsApp पर कुछ समय के लिए उपलब्ध नहीं हूँ। अभी Telegram पर अपना जवाब पाएँ, या अपना WhatsApp नंबर छोड़ दें, मैं वापस आते ही आपको मैसेज करूँगा, इन शा अल्लाह।",
+  "chooseSubtitle": "Telegram की सलाह दी जाती है, क्योंकि AI पर प्रतिबंधों के कारण WhatsApp अक्सर बाधित रहता है।",
   "chooseTelegram": "Telegram पर जारी रखें",
-  "chooseTelegramHint": "अभी उपलब्ध",
-  "chooseWhatsApp": "WhatsApp पर सूचित करें",
-  "chooseWhatsAppHint": "वापस आते ही मैसेज करूँगा",
-  "downCountry": "कोड"
+  "chooseWhatsApp": "WhatsApp पर जारी रखें",
+  "chooseRecommended": "अनुशंसित"
 }

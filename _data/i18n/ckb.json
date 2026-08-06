@@ -24,18 +24,10 @@
   "jsonLdDescription": "بۆتێکی بێبەرامبەری WhatsApp بۆ پرسیار دەربارەی ئیسلام، دامەزراو لەسەر زیاتر لە ١٦٥٬٠٠٠ فەتوای ڕاستەقینەی سەرچاوەدراو. ChatGPTـی موسوڵمانی تایبەتیی خۆت.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "یاریدەدەری WhatsAppـەکەمان بۆ ماوەیەکی کاتی بەردەست نییە. ژمارەکەت جێبهێڵە و هەر کە گەڕاینەوە نامەت بۆ دەنێرین، ان شاء الله.",
-  "downTitle": "کە گەڕاینەوە نامەت بۆ دەنێرین",
-  "downPhonePlaceholder": "ژمارەی WhatsAppـەکەت، بۆ نموونە +44 7123 456789",
   "downQuestionPlaceholder": "ئارەزوومەندانە: پرسیارەکەت",
-  "downSubmit": "ئاگادارم بکەرەوە",
-  "downThanks": "گەیشت، جزاكم الله خيرا. هەر کە گەڕاینەوە نامەت بۆ دەنێرین.",
-  "downError": "هەڵەیەک ڕوویدا، تکایە دووبارە هەوڵ بدەرەوە.",
   "chooseTitle": "لە کوێ وەڵامت بدەمەوە؟",
-  "chooseSubtitle": "لە WhatsApp بۆ ماوەیەکی کاتی بەردەست نیم. ئێستا وەڵامەکەت لە Telegram وەربگرە، یان ژمارەی WhatsAppـەکەت جێبهێڵە و هەر کە گەڕامەوە نامەت بۆ دەنێرم، ان شاء الله.",
+  "chooseSubtitle": "Telegram پێشنیار دەکرێت، چونکە WhatsApp زۆرجار بەهۆی قەدەغەکردنی AI دەوەستێت.",
   "chooseTelegram": "لە Telegram بەردەوام بە",
-  "chooseTelegramHint": "هەر ئێستا بەردەستە",
-  "chooseWhatsApp": "لە WhatsApp ئاگادارم بکەرەوە",
-  "chooseWhatsAppHint": "کە گەڕامەوە نامەت بۆ دەنێرم",
-  "downCountry": "کۆد"
+  "chooseWhatsApp": "لە WhatsApp بەردەوام بە",
+  "chooseRecommended": "پێشنیارکراو"
 }

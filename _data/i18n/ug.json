@@ -24,18 +24,10 @@
   "jsonLdDescription": "ئىسلام توغرىسىدىكى سوئاللارغا جاۋاب بېرىدىغان ھەقسىز WhatsApp بوتى، 167,000+ ھەقىقىي مەنبە كۆرسىتىلگەن پەتىۋاغا ئاساسلانغان. سىزنىڭ شەخسىي مۇسۇلمان ChatGPT ئىڭىز.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "WhatsApp ياردەمچىمىز ۋاقىتلىق ئىشلىمەيدۇ. نومۇرىڭىزنى قالدۇرۇپ قويۇڭ، قايتىپ كەلگەن ھامان سىزگە ئۇچۇر ئەۋەتىمىز، ئىنشائاللاھ.",
-  "downTitle": "قايتىپ كەلگەندە سىزگە ئۇچۇر ئەۋەتىمىز",
-  "downPhonePlaceholder": "WhatsApp نومۇرىڭىز، مەسىلەن +44 7123 456789",
   "downQuestionPlaceholder": "ئىختىيارىي: سوئالىڭىز",
-  "downSubmit": "ماڭا خەۋەر قىلىڭ",
-  "downThanks": "تاپشۇرۇۋالدۇق، جازاكۇمۇللاھۇ خەيران. قايتىپ كەلگەن ھامان سىزگە ئۇچۇر ئەۋەتىمىز.",
-  "downError": "مەلۇم خاتالىق كۆرۈلدى، قايتا سىناپ بېقىڭ.",
   "chooseTitle": "قەيەردە جاۋاب بېرەي؟",
-  "chooseSubtitle": "WhatsApp تا ۋاقىتلىق ئىشلىمەيمەن. جاۋابىڭىزنى ھازىرلا Telegram دا ئېلىڭ، ياكى WhatsApp نومۇرىڭىزنى قالدۇرۇپ قويۇڭ، قايتىپ كەلگەن ھامان سىزگە ئۇچۇر ئەۋەتىمەن، ئىنشائاللاھ.",
+  "chooseSubtitle": "Telegram تەۋسىيە قىلىنىدۇ، چۈنكى WhatsApp AI چەكلىمىلىرى سەۋەبىدىن دائىم توختاپ قالىدۇ.",
   "chooseTelegram": "Telegram دا داۋاملاشتۇرۇش",
-  "chooseTelegramHint": "ھازىر ئىشلەۋاتىدۇ",
-  "chooseWhatsApp": "WhatsApp تا ماڭا خەۋەر قىلىڭ",
-  "chooseWhatsAppHint": "قايتىپ كەلگەندە سىزگە ئۇچۇر ئەۋەتىمەن",
-  "downCountry": "كود"
+  "chooseWhatsApp": "WhatsApp دا داۋاملاشتۇرۇش",
+  "chooseRecommended": "تەۋسىيە"
 }

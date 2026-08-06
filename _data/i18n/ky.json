@@ -24,18 +24,10 @@
   "jsonLdDescription": "Ислам жөнүндө суроолорго жооп берген, 167,000+ чыныгы келтирилген фатвага негизделген акысыз WhatsApp бот. Сиздин жеке мусулман ChatGPT.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "WhatsApp жардамчыбыз убактылуу иштебей турат. Номериңизди калтырыңыз, кайра келгенде эле сизге жазабыз, Аллах кааласа.",
-  "downTitle": "Кайра келгенде сизге жазабыз",
-  "downPhonePlaceholder": "WhatsApp номериңиз, мисалы +44 7123 456789",
   "downQuestionPlaceholder": "Милдеттүү эмес: сурооңуз",
-  "downSubmit": "Мага кабар бергиле",
-  "downThanks": "Кабыл алынды, Аллах ыраазы болсун. Кайра келгенде эле сизге жазабыз.",
-  "downError": "Бир нерсе туура эмес болуп калды, кайра аракет кылып көрүңүз.",
   "chooseTitle": "Кайда жооп берейин?",
-  "chooseSubtitle": "WhatsApp'та убактылуу иштебей турам. Жообуңузду азыр Telegram'дан алыңыз же WhatsApp номериңизди калтырыңыз, кайра келгенде эле сизге жазам, Аллах кааласа.",
+  "chooseSubtitle": "Telegram сунушталат, анткени WhatsApp AI тыюуларынан улам көп үзгүлтүккө учурайт.",
   "chooseTelegram": "Telegram'да улантуу",
-  "chooseTelegramHint": "Азыр жеткиликтүү",
-  "chooseWhatsApp": "WhatsApp аркылуу кабар бергиле",
-  "chooseWhatsAppHint": "Кайра келгенде сизге жазам",
-  "downCountry": "Код"
+  "chooseWhatsApp": "WhatsApp'да улантуу",
+  "chooseRecommended": "Сунушталат"
 }

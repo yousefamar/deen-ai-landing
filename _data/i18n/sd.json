@@ -24,18 +24,10 @@
   "jsonLdDescription": "اسلام بابت سوالن لاءِ هڪ مفت WhatsApp بوٽ، جيڪو 167,000+ حقيقي ۽ حوالا ڏنل فتوائن تي ٻڌل آهي. توهان جو ذاتي مسلم ChatGPT.",
   "_draft": true,
   "_review": "AI review pass 2026-07-06: corrections applied",
-  "downBanner": "اسان جو WhatsApp اسسٽنٽ ڪجهه وقت لاءِ دستياب ناهي. پنهنجو نمبر ڇڏي وڃو، جيئن ئي واپس اينداسين ته توهان کي ميسيج ڪنداسين، ان شاء الله.",
-  "downTitle": "جڏهن واپس اينداسين ته توهان کي ميسيج ڪنداسين",
-  "downPhonePlaceholder": "توهان جو WhatsApp نمبر، مثال طور +44 7123 456789",
   "downQuestionPlaceholder": "اختياري: توهان جو سوال",
-  "downSubmit": "مون کي اطلاع ڏيو",
-  "downThanks": "ملي ويو، جزاكم الله خيرا. جيئن ئي واپس اينداسين ته توهان کي ميسيج ڪنداسين.",
-  "downError": "ڪا خرابي ٿي وئي، مهرباني ڪري ٻيهر ڪوشش ڪريو.",
   "chooseTitle": "مان ڪٿي جواب ڏيان؟",
-  "chooseSubtitle": "مان WhatsApp تي ڪجهه وقت لاءِ دستياب ناهيان. هاڻي ئي Telegram تي پنهنجو جواب حاصل ڪريو، يا پنهنجو WhatsApp نمبر ڇڏي وڃو ۽ جيئن ئي واپس اچان، توهان کي ميسيج ڪندس، ان شاء الله.",
+  "chooseSubtitle": "Telegram جي صلاح ڏجي ٿي، ڇو ته WhatsApp اڪثر AI تي پابندين سبب بند ٿي ويندو آهي.",
   "chooseTelegram": "Telegram تي جاري رکو",
-  "chooseTelegramHint": "هاڻي ئي دستياب",
-  "chooseWhatsApp": "WhatsApp تي مون کي اطلاع ڏيو",
-  "chooseWhatsAppHint": "جڏهن واپس اچان ته توهان کي ميسيج ڪندس",
-  "downCountry": "ڪوڊ"
+  "chooseWhatsApp": "WhatsApp تي جاري رکو",
+  "chooseRecommended": "تجويز ڪيل"
 }
